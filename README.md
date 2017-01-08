@@ -320,3 +320,8 @@ Conclusion
 It's easy to feel powerless when it comes to protecting our privacy. Companies, political organizations, and governments have a head start, and the fight to regain our privacy is often marked by distinct [information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry), where the organizations collecting, sharing, and storing our data know more about us than we know about them. However, as the Five Days of Privacy demonstrate, we have options. There are a broad range of concrete steps we can take now, and most of these steps are free and pretty low-tech.
 
 As we continue to reclaim our rights to privacy, part of our work is normalizing behavior that protects privacy. If one person out of a thousand uses a VPN, that individual will stand out. If 200 people out of a thousand use a VPN, we begin to get some safety in numbers. Additionally, as more people use more privacy-protecting behaviors, we reduce the value of the data that is collected. If we pair privacy-protecting behavior with studying the companies that want to collect and use our information, we reduce the current state of information asymmetry. Reclaiming privacy is a choice. Sometimes it's not a convenient choice, but flossing, exercise, and eating well aren't always easy either. But when we make protecting our privacy a choice as an individual, we make it easier to protect ourselves and our communities.
+
+Licensing Information
+---------------------
+
+This work is licensed under a [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/4.0/) License. The lead authors of this work are Bill Fitzgerald and Audrey Watters.
