@@ -20,6 +20,7 @@ Conversations about privacy and security often focus on technology and give scan
 -   [Summary](#summary)
 -   [Simple Steps](#simple-steps)
 -   [Conclusion](#conclusion)
+-   [Licensing Information](#licensing-information)
 
 Assessing Risk
 --------------
