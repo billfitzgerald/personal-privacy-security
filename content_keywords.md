@@ -42,6 +42,8 @@ The terms were discussed during our 4 day session; the terms with links were inc
 
 ### Duopoly
 
+### Encryption
+
 ### Ethnic Affinity
 
 ### <a title="Event [draft]" href="http://culturedigitally.org/2014/06/event-draft-digitalkeyword/">Event</a> (Julia Sonnevend)
