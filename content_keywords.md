@@ -4,6 +4,9 @@ This list of Keywords and Concepts was created during the "Privacy" session at D
 
 The terms were discussed during our 4 day session; the terms with links were incorporated from http://culturedigitally.org.
 
+* MLA Keywords for Digital Pedagogy: https://digitalpedagogy.mla.hcommons.org/keywords/
+* Information Security Primer Glossaary: https://github.com/billfitzgerald/infosec-primer/blob/master/glossary.md
+
 ### 3rd Party Doctrine
 
 ### Adtech
