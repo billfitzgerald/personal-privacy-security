@@ -60,6 +60,8 @@ The terms were discussed during our 4 day session; the terms with links were inc
 
 ### <a title="Geek [draft]" href="http://culturedigitally.org/2014/05/geek-draftdigitalkeywords/">Geek</a> (Christina Dunbar-Hester)
 
+### Geofencing
+
 ### <a title="Hackers" href="http://culturedigitally.org/2014/10/hackers-draft-digitalkeywords/">Hackers</a> (Gabriella Coleman)
 
 ### HIPAA
