@@ -1,8 +1,9 @@
+**Note, 26 June 2024** - this guide has languished for a bit. Some of the advice is still useful. Some of it is woefully out of date. I'll be updating it over the next few weeks/months to bring it current. When it's ready to go, I'll remove this note. **End Note**
+
 Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy. This post covers a range of concrete steps we can all take to regain control over what, when, and with whom we share. Some of the things we discuss will involve technology, and some of them won't. The majority of the suggestions we make involve tools or practices that are freely available. The vast majority of things we suggest are also designed to be accessible without a large amount of technical knowledge. The steps we outline here are intended as a solid starting point, and not a comprehensive solution, but with that said, the steps we define here minimize or eliminate many common issues.
 
 -   [Assessing Risk](#assessing-risk)
 -   [In Person/Face-to-Face](#in-personface-to-face)
--   [Privacy and Filter Bubbles](#privacy-and-filter-bubbles)
 -   [General Maintenance When Online](#general-maintenance-when-online)
 -   [Using Sites Where You Have an Account](#using-sites-where-you-have-an-account)
 -   [Third-Party Tracking](#third-party-tracking)
@@ -31,38 +32,30 @@ When we think about protecting our privacy, we generally start with these questi
 -   From whom are you trying to keep it private?
 -   What are the consequences if the protections fail?
 -   Do the consequences change or shift over time (short-, medium-, long-term)?
+-   How much effort are we willing to put into making any needed changes?
 
-These factors can help determine our priorities: What information is most important to protect? Why? How much effort should be put into protecting something?
+These factors can help determine our priorities: What information is most important to protect? Why? How much effort should be put into protecting something? Should we prioritize easy changes over things that might be more important, yet more complicated? The right path will vary person by person, and that's normal. It's also normal to start down one path and change. Do what feels right, and do what's possible.
 
-The answers to these questions will vary widely based on personal circumstances. By making some explicit decisions about what we want to protect and how much effort we're willing to spend protecting it, we can come up with a plan and a strategy that are realistic for us and tailored to our individual needs.
-
-Using these questions to structure our decisions should also take into account how easy or hard something is to do. In the conversations below, we will highlight how easy or hard some changes are to make.
+Use the questions listed above to structure decisions. In the conversations below, we will highlight how easy or hard some changes are to make.
 
 In Person/Face-to-Face
 ----------------------
 
 There are a range of ways people can access information if they're physically close to you. In this section, we will highlight ways to minimize the risk of people seeing information they don't need to see.
 
-At the outset, I want to highlight that going into a public space means you will be caught up in [some form of observation](https://www.youtube.com/watch?v=npM-tWbyyiI). This can be as benign and accidental as being in the background of someone's photo in a public place, or it could be as focused as having your [license plate scanned](https://www.aclu.org/feature/you-are-being-tracked) as part of passive data collection by law enforcement. It's also worth remembering that many public places (most stores, malls, supermarkets, gas stations, Walmart, and the like) are covered by [closed-circuit television cameras](http://www.insecam.org/).
+At the outset, I want to highlight that going into a public space means you will be caught up in [some form of observation](https://www.youtube.com/watch?v=npM-tWbyyiI). This can be as benign and accidental as being in the background of someone's photo in a public place, getting captured in a person's connected doorbell (ie, Ring, etc), or it could be as focused as having your [license plate scanned](https://www.aclu.org/feature/you-are-being-tracked) as part of [data collection by law enforcement](https://sls.eff.org/). It's also worth remembering that many public places (most stores, malls, supermarkets, gas stations, public transit, and the like) are covered by closed-circuit television cameras.
 
-One of the most common ways that people can get information about you is by watching your screen as you work. This hallmark of the perpetually nosy -- also known as "shoulder surfing" -- can range from simply annoying to potentially dangerous, depending on what you're doing. It's not difficult to imagine web searches where we wouldn't want some stranger, sibling, uncle, or other person reading over our shoulder.
+If you are accessing or working in a public space, one of the most common ways that people can get information about you is by watching your screen as you work. This hallmark of the perpetually nosy -- also known as "shoulder surfing" -- can range from simply annoying to potentially dangerous, depending on what you're doing. It's not difficult to imagine web searches where we wouldn't want some stranger, sibling, uncle, or other person reading over our shoulder.
 
 Fortunately, a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen) will block shoulder surfing. For other people who work in public spaces -- from coffee shops to offices and libraries -- the following steps can minimize your risk:
 
--   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has.
--   Encrypt your [hard drive](https://theintercept.com/2015/04/27/encrypting-laptop-like-mean/) on your computer. If your computer is lost or stolen, having an encrypted hard drive will prevent unauthorized access to any information on it. It's worth noting that encrypting your hard drive will not mean much if you have a weak password for your login.
--   Encrypt your phone or tablet. If you're using a newer iPhone or iPad, then your device is likely already encrypted by default. Most newer [Android phones](http://arstechnica.com/gadgets/2016/03/why-are-so-few-android-phones-encrypted-and-should-you-encrypt-yours/) support encryption. Encrypting your phone or tablet prevents access to information stored on the device in case of loss or theft. It's worth noting that encrypting your phone will not mean much if you use fingerprint unlock or a weak password.
+-   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has. Better yet, don't leave your computer or phone unattended. The hassle from carrying your tech with you when you step into the bathroom is dwarfed by the hassle of having your stuff stolen, or your information compromised.
+-   Encrypt your hard drive on your computer. Instructions for [Mac](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac), instructions for [Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d). If your computer is lost or stolen, having an encrypted hard drive will prevent unauthorized access to any information on it. It's worth noting that encrypting your hard drive will not mean much if you have a weak password for your login.
+-   If you're using a newer iPhone or iPad or a newer [Android device](https://source.android.com/docs/security/features/encryption), then your device is likely already encrypted by default. If you use an iPhone and are at higher risk, or if you want to experiment with a more secure setup, try [Lockdown mode](https://support.apple.com/guide/iphone/use-lockdown-mode-iph049680987/17.0/ios/17.0). Encrypting your phone or tablet prevents access to information stored on the device in case of loss or theft. It's worth noting that encrypting your phone will not mean much if you use fingerprint unlock or a weak password. It's also worth noting that protections on the device can be undermined by backing up to cloud based storage, or by installing apps with overly broad permissions. We talk about additional protections available on phones later in this writeup.
 -   Be careful with using [external storage](http://www.computerworld.com/article/2514934/security0/1-in-4-worms-spread-through-infected-usb-devices.html) such as USB flash drives.
 -   Use a [password manager](https://en.wikipedia.org/wiki/Password_manager). At first blush, this doesn't seem to make a lot of sense for inclusion in a section on potential risks from someone being in the same physical space as you, but using password managers solves one common problem: writing usernames and passwords on paper where they can be read, photographed, or used by unauthorized people. (Fact: I have seen usernames and passwords written on a whiteboard get included in promotional videos.) Password managers are covered in more detail later in this blog series.
 
 There are other steps you can take to minimize risks that arise from physical access, but using a **privacy screen**, **encrypting** devices, not leaving devices **logged in while they're unattended**, and being **careful with external storage devices** can eliminate many common issues. Privacy screens cost between $15 and $60, and the other options discussed today are free. As we stated at the outset, eliminating all risk is impossible, but these steps can reduce risks to which we're all commonly exposed.
-
-Privacy and Filter Bubbles
---------------------------
-
-An additional benefit of freeing ourselves from pervasive tracking is the ability to move outside our filter bubbles. We cover this in more detail in various sections, but good privacy practice is also good information-literacy practice. Steps we take to increase our privacy also increase our awareness of how information is presented to us and the different forms of bias embedded in that presentation.
-
-Good privacy practice improves our ability to retrieve information short-term and long-term. They feed each other. Conversely, bad privacy practice limits our options, and these limits get reinforced over time. The steps we outline in this post help us reach beyond our [filter bubbles](https://en.wikipedia.org/wiki/Filter_bubble) and see a more complete picture.
 
 General Maintenance When Online
 -------------------------------
