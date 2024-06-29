@@ -2,26 +2,6 @@
 
 Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy. This post covers a range of concrete steps we can all take to regain control over what, when, and with whom we share. Some of the things we discuss will involve technology, and some of them won't. The majority of the suggestions we make involve tools or practices that are freely available. The vast majority of things we suggest are also designed to be accessible without a large amount of technical knowledge. The steps we outline here are intended as a solid starting point, and not a comprehensive solution, but with that said, the steps we define here minimize or eliminate many common issues.
 
--   [Assessing Risk](#assessing-risk)
--   [In Person/Face-to-Face](#in-personface-to-face)
--   [General Maintenance When Online](#general-maintenance-when-online)
--   [Using Sites Where You Have an Account](#using-sites-where-you-have-an-account)
--   [Third-Party Tracking](#third-party-tracking)
--   [Blocking Trackers, the Long Way](#blocking-trackers-the-long-way)
--   [Blocking Trackers, the Short Way](#blocking-trackers-the-short-way)
--   [News and Search](#news-and-search)
--   [Email](#email)
--   [Secure Online File Storage](#secure-online-file-storage)
--   [Virtual Private Networks (VPNs)](#virtual-private-networks-vpn)
--   [Increased Anonymity and Tracking Protection](#increased-anonymity-and-tracking-protection)
--   [Password Managers](#password-managers)
--   [Two-Factor Authentication](#two-factor-authentication)
--   [Phone/Tablet and Apps](#phonetablet-and-apps)
--   [Wireless](#wireless)
--   [Summary](#summary)
--   [Simple Steps](#simple-steps)
--   [Conclusion](#conclusion)
--   [Licensing Information](#licensing-information)
 
 Assessing Risk
 --------------
