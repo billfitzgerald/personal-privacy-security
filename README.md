@@ -49,22 +49,60 @@ If you are accessing or working in a public space, one of the most common ways t
 
 Fortunately, a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen) will block shoulder surfing. For other people who work in public spaces -- from coffee shops to offices and libraries -- the following steps can minimize your risk:
 
--   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has. Better yet, don't leave your computer or phone unattended. The hassle from carrying your tech with you when you step into the bathroom is dwarfed by the hassle of having your stuff stolen, or your information compromised.
--   Encrypt your hard drive on your computer. Instructions for [Mac](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac), instructions for [Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d). If your computer is lost or stolen, having an encrypted hard drive will prevent unauthorized access to any information on it. It's worth noting that encrypting your hard drive will not mean much if you have a weak password for your login.
+-   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has. Better yet, if working in a public space, don't leave your computer or phone unattended. The hassle from carrying your tech with you when you step into the bathroom is dwarfed by the hassle of having your stuff stolen, or your information compromised. **Note**: locking your desktop when you leave your desk/workspace applies for working in an office as well.  
+-   Encrypt your hard drive on your computer. Instructions for [Mac](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac), instructions for [Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d), instructions for [Ubuntu linux](https://ubuntu.com/tutorials/install-ubuntu-desktop#6-type-of-installation). If your computer is lost or stolen, having an encrypted hard drive will prevent unauthorized access to any information on it. It's worth noting that encrypting your hard drive will not mean much if you have a weak password for your login.
 -   If you're using a newer iPhone or iPad or a newer [Android device](https://source.android.com/docs/security/features/encryption), then your device is likely already encrypted by default. If you use an iPhone and are at higher risk, or if you want to experiment with a more secure setup, try [Lockdown mode](https://support.apple.com/guide/iphone/use-lockdown-mode-iph049680987/17.0/ios/17.0). Encrypting your phone or tablet prevents access to information stored on the device in case of loss or theft. It's worth noting that encrypting your phone will not mean much if you use fingerprint unlock or a weak password. It's also worth noting that protections on the device can be undermined by backing up to cloud based storage, or by installing apps with overly broad permissions. We talk about additional protections available on phones later in this writeup.
--   Be careful with using [external storage](http://www.computerworld.com/article/2514934/security0/1-in-4-worms-spread-through-infected-usb-devices.html) such as USB flash drives.
+-   If you use external storage (ie, any USB storage), encrypt the drive and use a strong passphrase to protect it. [Windows instructions](https://www.howtogeek.com/encrypt-usb-flash-drive-windows/), [Mac instructions](https://support.apple.com/guide/disk-utility/encrypt-protect-a-storage-device-password-dskutl35612/mac), [Linux instructions]().
+-	Be careful with -- to the point of never using -- [external USB storage](http://www.computerworld.com/article/2514934/security0/1-in-4-worms-spread-through-infected-usb-devices.html) where you do not know the source of the drive. This especially applies to any drive you find, but also to drives that vendors "helpfully" give out as swag at conferences. If you haven't bought the drive yourself from a vendor you trust, don't connect it to your computer. This also can apply to situations where someone asks you to print a file for them off a USB key. It can be awkward to say "no", but we are often only as secure as our least secure friend or relative.
 -   Use a [password manager](https://en.wikipedia.org/wiki/Password_manager). At first blush, this doesn't seem to make a lot of sense for inclusion in a section on potential risks from someone being in the same physical space as you, but using password managers solves one common problem: writing usernames and passwords on paper where they can be read, photographed, or used by unauthorized people. (Fact: I have seen usernames and passwords written on a whiteboard get included in promotional videos.) Password managers are covered in more detail later in this blog series.
 
 There are other steps you can take to minimize risks that arise from physical access, but using a **privacy screen**, **encrypting** devices, not leaving devices **logged in while they're unattended**, and being **careful with external storage devices** can eliminate many common issues. Privacy screens cost between $15 and $60, and the other options discussed today are free. As we stated at the outset, eliminating all risk is impossible, but these steps can reduce risks to which we're all commonly exposed.
 
-General Maintenance When Online
--------------------------------
+General Maintenance When Using a Machine that Connects to the Internet
+----------------------------------------------------------------------
 
-Part of maintaining our privacy involves making sure that our device or computer software is up to date. When fine-tuning our privacy and security protections, we need to ensure our device is not compromised before we start. Check for malware and viruses. Uninstall and delete any software or apps that are not needed, as unused applications are often a source of security issues. If Flash is not required, disable it and delete it -- many ugly security issues target Flash, and having it enabled can leave you exposed. When in doubt, a clean reinstallation of the operating system is often the safest starting point. Using a service like [Malwarebytes](https://www.malwarebytes.com/) to scan for malware and protect you from it is definitely recommended.
+Part of maintaining the security of our devices -- and our privacy -- involves making sure that our device or computer software is up to date.
 
-Once your system is at a good starting point, install operating-system and software updates in a timely way. Read our [Windows FAQ](https://support.microsoft.com/en-us/help/12373/windows-update-faq) and our [OSX FAQ](https://support.apple.com/en-us/HT201541).
+On any device -- a phone, laptop, desktop, or tablet -- every installed app or service is (theoretically, potentially) an attack vector. Because of this, make sure that you only retain the apps and services you need and want on your device. If you tried out an app but didn't continue using it? Delete the app. You can't be compromised via a service that isn't installed. 
 
-Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to various forms of malware.
+The first time you run through the Great Deletion, it might take a while, but once you make a first pass and delete unused apps, maintaining a cleaner device will be easier. It's similar to cleaning your kitchen -- not necessarily fun, but necessary, and you feel good afterwards. 
+
+One additional note: deleting apps from your device does not delete any accounts associated with the service. You can delete an app while still retaining the account. I do this with travel apps from airlines; I delete them when I'm not flying for privacy reasons, and re-install them when I'm going to be travelling for work.
+
+Opinions vary widely on the protections offered by malware and anti-virus software. The distrust and ambiguity has been exacerbated by the industry itself -- for example, [Avast sharing user data collected via their antivirus product](https://www.consumerreports.org/electronics/privacy/avast-shutters-data-selling-subsidiary-in-wake-of-privacy-complaints-a9105985168/) with an adtech company, [Norton Lifelock accounts being compromised](https://techcrunch.com/2023/01/15/norton-lifelock-password-manager-data) via credential stuffing, and nation state actors [compromising antirus by hijacking updates](https://www.bleepingcomputer.com/news/security/hackers-hijack-antivirus-updates-to-drop-guptiminer-malware/). Because anti-virus and anti-malware needs to see nearly everything happening on a device, it's an attractive target. 
+
+Because of these issues, I do not have any specific recommendations for antivirus or anti-malware software. For some people -- especially people on Windows machines -- it can make sense. For others, it might not. The one thing I will say, which is less of a recommendation and more general advice: if you are running Windows, look at the options that are packaged with the operating system. Because you are already running Windows, you are effectively trusting Microsoft, and therefore, enabling any anti-virus and anti-malware that comes with Windows doesn't not substantially alter the reality that by virtue of using Windows you have no real option but to trust Microsoft.
+
+Install operating system and software updates in a timely way. 
+- [Windows FAQ](https://support.microsoft.com/en-us/help/12373/windows-update-faq) 
+- [OSX FAQ](https://support.apple.com/en-us/HT201541).
+
+Safe(r) Browsing
+----------------
+
+Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware.
+
+And even if adtech wasn't commonly used to deliver malware, it should still be blocked for one core reason: unnamed companies, who we don't know, who haven't asked our consent, who don't have our best interests at heart, have no right to know what I'm doing online. I don't go online so The Trade Desk can exist. The data broker and adtech industries justify their ever-expanding quest to collect and retain more information about us with the disingenuous question of "where is the harm?"
+
+When you hear this question, know that you are conversing with someone who -- either intentionally or unintentionally -- is parroting industry talking points. The better questions are "what is the need?" and "who benefits?" and "why is it necessary?" The answers to these questions help center the conversation in a way that values people over corporations, and exposes the surveillance embedded in many of the business models supporting adtech and data brokers.
+
+### Choosing a Browser
+
+Choosing a browser is becoming increasingly difficult. Firefox used to be a reliable choice, but with Mozilla's push into AI, the wisdom of using Firefox for the indefinite future is open for debate. 
+
+I don't recommend using Chrome. Google has been threatening/promising to remove cookies for years, which sounds like a win for privacy, but will generally be a [win for Google](https://www.eff.org/deeplinks/2023/09/how-turn-googles-privacy-sandbox-ad-tracking-and-why-you-should).
+
+I recommend splitting browser selection into two types of use: the Everyday browser, and the Research browser.
+
+For the Everyday browser, I still recommend [Firefox](). I [wrote a post](https://archive.funnymonkey.com/2020/browser-hygiene-for-better-privacy---think-of-it-like.html) a few years back that still holds up on how to configure Firefox post-install.
+
+For the Research browser, use Tor and/or the Mullvad browser (which is a collaboration between Mullvad and Tor.)
+
+### Ad Blocking
+
+Browser extension: Install uBlock Origin
+
+Block via DNS: Use a service like [Quad9](https://www.quad9.net/).
 
 As with all the sections in this post and in this series, the options described are not intended to be comprehensive. The full suite of options for securing computers running Windows, Mac OS X, or Linux are outside the scope of this post. However, checking for malware and installing updates regularly can help avoid some common problems. The sections that follow detail different areas that we need to think about when protecting our privacy.
 
@@ -73,67 +111,34 @@ Using Sites Where You Have an Account
 
 When we visit any website, we generally are tracked by various methods. In this post, we lump different tracking methods and technologies into a blob that we will call "trackers." Technical differences exist between different types of trackers, but a thorough description of them all is outside the scope of this post.
 
-It's also worth noting that when we go to a site where we have an account (or use an app on our phone that connects us to an account), our use of the service is generally tracked because we willingly identify ourselves to the site. For example, when I log into Google to check email or to Twitter to post 140 characters, I am identifying myself and my activities to these sites. Choosing to log into a site generally means that we are agreeing to be tracked by that site. The privacy policies of these sites describe how they use the data they collect from you. (Note: Most commercial sites can use and share your information with few restrictions, including sharing it with unnamed "partners" and combining it with data from other sources to create detailed tracking profiles.) It is possible to minimize tracking by browsing these sites without logging in whenever possible and only logging in when absolutely necessary.
+It's also worth noting that when we go to a site where we have an account (or use an app on our phone that connects us to an account), our use of the service is generally tracked because we willingly identify ourselves to the site. Choosing to log into a site generally means that we are agreeing to be tracked by that site. The privacy policies of these sites describe how they use the data they collect from you. (Note: Most commercial sites can use and share your information with few restrictions, including sharing it with unnamed "partners" and combining it with data from other sources to create detailed tracking profiles.) It is possible to minimize tracking by browsing these sites without logging in whenever possible and only logging in when absolutely necessary.
 
 When using social media, clicking on things such as [quizzes can expose huge amounts of personal data](http://www.bbc.com/news/technology-34922029) to trackers or provide answers to your password-reset security questions. In some cases, the companies behind the quizzes use the data to [compile personality profiles](http://www.nytimes.com/2016/11/20/opinion/the-secret-agenda-of-a-facebook-quiz.html) that are used in political campaigns. Even seemingly [simple things](http://www.pnas.org/content/110/15/5802.full) like the "like" button or [responding via emoji](https://mic.com/articles/136111/facebook-is-using-those-new-like-emojis-to-learn-a-whole-lot-more-about-you#.kVcPepL9g) can allow for fairly precise tracking. Fortunately, avoiding this form of tracking is simple: Stop taking the quizzes, and stop using emoji-based reactions (people [have experimented](https://www.wired.com/2014/08/i-liked-everything-i-saw-on-facebook-for-two-days-heres-what-it-did-to-me/) along [these lines](https://medium.com/swlh/i-quit-liking-things-on-facebook-for-two-weeks-heres-how-it-changed-my-view-of-humanity-29b5102abace#.4y3hmwuv2) in the past).
 
-We are also seeing more hackers looking for ways to [exploit bugs or flaws](http://arstechnica.com/security/2016/11/locky-ransomware-decoy-image-files-boobytrap-facebook-linkedin) on social media sites. While the patterns of different attacks may vary, many attacks can be thwarted by not opening files that you haven't explicitly downloaded from a trusted source. Deleting the contents of your "download" directory can help prevent the risk of accidentally opening a file that contains malware or ransomware.
+Criminals continue to [exploit bugs or flaws](http://arstechnica.com/security/2016/11/locky-ransomware-decoy-image-files-boobytrap-facebook-linkedin) on social media sites. While the patterns of different attacks may vary, many attacks can be thwarted by not opening files that you haven't explicitly downloaded from a trusted source. 
 
 But in general, when we create an account on any site, that site will track our behavior or how we use that site to some extent. The best way to avoid this type of tracking is to use sites without logging in whenever possible and to clear your cookies and browser cache frequently. Later in this post, we will cover how to clear cookies and other methods of minimizing tracking.
 
-Sites that require people to create accounts also use and allow for a range of third-party trackers that monitor activity. This means that, on sites where we create accounts and log in, we are tracked by the sites we log into (for example, Facebook, Instagram, Twitter, WhatsApp, Evernote, Pinterest, Google, and so on), by the vendor themselves, and by the third parties they allow on their sites. In addition, sites that allow apps (for example, Facebook, Edmodo, Google Apps for Education, and so on) all expose us to tracking via any of the third-party apps we choose to enable.
-
-Third-Party Tracking
---------------------
-
-Third-party [tracking](https://developers.google.com/third-party-ads/youtube-vendors) is [pervasive](https://developers.google.com/third-party-ads/adx-vendors) on the [web](https://developers.google.com/third-party-ads/adwords-vendors). Several [thousand](https://apps.ghostery.com/en/apps/) tracking companies exist, and in most cases, people browsing the web are never told which trackers are in use, what information they gather, or how that information can be used. Data collected by third-party trackers are often sold to [data brokers](https://www.propublica.org/article/everything-we-know-about-what-data-brokers-know-about-you), who [combine data from multiple sources](http://www.worldprivacyforum.org/wp-content/uploads/2014/04/WPF_Scoring_of_America_April2014_fs.pdf) (a process known as "data enhancement" or "data recombination") and then [sell access](http://www.nytimes.com/2012/06/17/technology/acxiom-the-quiet-giant-of-consumer-database-marketing.html) to that data. Some news sites, such as the Huffington Post, [place upwards of 100 trackers](https://www.funnymonkey.com/2016/tracking-the-trackers) when you visit their site. Trackers can also get information based on searches; in some cases, this can lead to searches for sensitive information -- [such as searches for health information](http://motherboard.vice.com/read/looking-up-symptoms-online-these-companies-are-collecting-your-data) -- getting shared with data brokers.
-
-To minimize the impact of tracking, we have a few tools at our disposal. These tools can help protect us from tracking by advertisers, political campaigns, and other undisclosed parties who can use our personal information without notifying us or without obtaining our informed consent. Some of the steps outlined in this section can also help disrupt filter bubbles and protect others from accessing our browsing history.
-
-Blocking Trackers, the Long Way
--------------------------------
-
-The tools here focus on browsing the web using either Firefox or Chrome as our browser. We focus on these browsers because they are freely available and supported on Windows, Mac OS X, and Linux. While both Chrome and Firefox offer an option to create an account to sync settings across machines, we recommend not using this option and storing your preferences locally.
-
-To get a sense of what trackers are placed on a site, use [Lightbeam](https://www.mozilla.org/en-US/lightbeam/), a Firefox-only add on. Lightbeam allows you to create a list and a visualization of trackers that are placed by sites. While Lightbeam also supports blocking trackers, we use it primarily for research to get a sense of which trackers are placed by which sites.
-
-To block trackers and other services that collect and use our information without notification or consent, use the combination of [Privacy Badger](https://www.eff.org/privacybadger) and [uBlock Origin](https://github.com/gorhill/uBlock). Privacy Badger does a good job of picking up most third-party trackers, and uBlock Origin catches trackers that Privacy Badger might miss. Both of these browser extensions have versions for Chrome and Firefox.
-
 Clearing your cookies, cache, and browsing history regularly minimizes the amount of data available to trackers (read our instructions for [Chrome](https://support.google.com/accounts/answer/32050?hl=en) and [Firefox](https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox)).
 
-Firefox also has an add-on named [Self-destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) that will destroy cookies automatically after a tab is closed or after the browser is closed. This can help prevent tracking, and it can also protect against someone accessing your computer and being able to access sites where you have logged in.
+Blocking JavaScript. In Firefox, the best option for this is [NoScript](https://noscript.net/). Using NoScript will break functionality on some sites.
 
-[HTTPS Everywhere](https://www.eff.org/https-everywhere) protects against connecting to websites via an unencrypted connection. This browser extension, supported in both Chrome and Firefox, doesn't protect against third-party tracking. However, for people who travel and use internet connections in hotels, coffee shops, conferences, or other public spaces, HTTPS Everywhere can protect against people snooping and looking at traffic on the network.
-
-Unfortunately, tracking occurs in multiple ways, and blocking trackers will only go so far. Some companies use a technique called [browser fingerprinting](https://panopticlick.eff.org/). Some of the [elements targeted](https://amiunique.org) by browser fingerprinting can be blocked by blocking JavaScript. In Firefox, the best option for this is [NoScript](https://noscript.net/). In Chrome, the best option for this is [ScriptSafe](https://github.com/andryou/scriptsafe).
-
-In addition to these steps, disabling and removing unused browser plug-ins is strongly recommended. In some instances, advertising companies have bought moderately popular extensions and used them to push trackers and malware. Disabling and deleting unused browser extensions minimizes this risk (read our instructions for [Chrome](https://support.google.com/chrome_webstore/answer/2664769?hl=en) and [Firefox](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)).
+In addition to these steps, disabling and removing unused browser plug-ins is strongly recommended. In some instances, advertising companies or criminals have bought moderately popular extensions and used them to push trackers and malware. Disabling and deleting unused browser extensions minimizes this risk (read our instructions for [Chrome](https://support.google.com/chrome_webstore/answer/2664769?hl=en) and [Firefox](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)).
 
 A final note here involves the use of so-called "private" or incognito browsing. Avoid it. If you want private browsing for everyday activities, use the steps outlined in this section. If you want truly private browsing, use Tor, as described in the next section.
-
-Blocking Trackers, the Short Way
---------------------------------
-
-Use [Tor](https://www.torproject.org/). Tor protects against tracking and in some situations allows people to approach being anonymous online (we say "approach" because true anonymity does not exist). Tor was designed to provide protection for journalists and dissidents in repressive countries and helps protect against everything from tracking protection to, potentially, having traffic intercepted by governments and other organizations. While Tor is the most accessible option out there for blocking tracking and preserving a semblance of anonymity, it can't be overstated that [even Tor has vulnerabilities](http://motherboard.vice.com/read/over-100-snooping-tor-nodes-have-been-spying-on-dark-web-sites).
-
-We will discuss this in more detail later in this post, but using Tor to search for sensitive information provides a good level of protection for most people.
 
 News and Search
 ---------------
 
+https://www.nytimes.com/2024/06/01/technology/google-ai-overviews-rollback.html
+
+https://stract.com/
+
 For many of us, if we have Gmail accounts (either a personal or work account, or both) and we use Google for search, we almost always search when we are logged in to Google. This gives Google a very complete view of what we search for, which allows them to "personalize" searches to what Google thinks we want to see (if you want to see a small subset of what Google knows about you, visit https://myactivity.google.com/myactivity when logged into a Google account. While this is only a fraction of what Google knows about you, a quick scan through your search history is often illustrative and petrifying). "Personalization" ensures that two people searching for the same topic won't get the same results. However, when results are invisibly tailored "for" us, [bias can appear](http://www.bbc.com/news/technology-21322183) in the results. There have also been [substantial charges that Google has abused](http://www.wsj.com/articles/inside-the-u-s-antitrust-probe-of-google-1426793274) its position as a leader in search.
 
-However, the same mechanisms that target ads to us also target search results and news to us, and this can create what some people call a [filter bubble](https://en.wikipedia.org/wiki/Filter_bubble). Accordingly, all the steps outlined above to protect against ad tracking also help us receive less biased search results. We can expand the reach of what we see online by using different search services. These three services provide protections for privacy that are not as accessible with other search engines:
-
 -   [Duck Duck Go](https://duckduckgo.com/)
--   [StartPage](https://www.startpage.com/) (Schools can use https://startpage.info for an education-specific version.)
--   [Disconnect.me](https://search.disconnect.me/)
 
-Additionally, if you set your browser's default search option to something other than Google, you will reduce the chance that you will accidentally provide Google with additional data. This allows you to make a deliberate choice around using Google relative to other search options.
-
-Finally, when reading news sites, make a point of visiting sites that are counter to your usual sources of information. If you usually visit Huffington Post, head over to the Daily Caller. If you're a dedicated USAToday.com reader, head over to Time.com. Drop by Alternet or Yahoo! News. (In addition to getting the cookies from these sites stored on your browser, you will also read opinions outside your bubble or circle. You don't have to agree with them, but knowing what they're saying can be useful.)
-
-When searching for sensitive information that you don't want shared, the best approach is to use Tor and search via Duck Duck Go, StartPage, or Disconnect.me. Adding in a VPN, which we discuss in tomorrow's post, is an additional layer of protection. Using this strategy helps protect you from having your personal data collected by data brokers while searching for information.
+When searching for sensitive information that you don't want shared, the best approach is to use Tor/Mullvad browser and search via Duck Duck Go. Using this strategy helps protect you from having your personal data collected by data brokers while searching for information.
 
 Email
 -----
@@ -169,25 +174,23 @@ A final note about email: It is only as secure as the person you're sending it t
 Secure Online File Storage
 --------------------------
 
-For better or worse, we live in a time of plentiful cheap online storage. However, out of this embarrassment of riches, few options offer the ideal blend of ease of access and security. For people who want as close to a guarantee as possible that their information can only be accessed with their consent, most of the common storage options -- Google Drive, Dropbox, and iCloud -- are not useful. While these companies encrypt data at rest, they have a level of access to the data and can be compelled to provide access to that data in response to a legal request. Additionally, these companies often store metadata about how users store files, and this metadata (details such as time and location of access, IP addresses, filenames, and so on) can be informative even without the underlying files. In some cases, using services like iCloud can [undercut security and privacy protections](http://money.cnn.com/2016/02/22/technology/apple-privacy-icloud/) we have in place.
-
-For a secure cloud-file-storage solution, we recommend [Spider Oak](https://spideroak.com/). The differentiating feature of Spider Oak is that it allows us to set a private encryption key that only we can access. This renders our data stored on Spider Oak unreadable. This both supports our security and streamlines the business operations for Spider Oak; if they're ever asked to provide access to a user's data, they are in the enviable position of having nothing useful to share.
-
-As with email, delete any files that are not immediately useful. Files can always be archived offline on an encrypted removable drive. This is a good step for personal organization, and it is also helpful to ensure that sensitive information isn't left exposed accidentally. As with many steps we can take to protect our privacy, taking small steps to reduce risk can help minimize risk. No individual step will magically solve everything, but incremental risk reduction adds layers of protection.
+TBD
 
 Virtual Private Networks (VPNs)
 -------------------------------
 
 For people who access the internet from outside their home or office, using a virtual private network (or VPN) can provide different levels of protection from a nosy kid playing at hacker on the coffee shop Wi-Fi network or from a person trying to steal private information as part of an attempt at identity theft. VPNs can also obscure which sites a person visits, thus hiding their browsing histories from people who might attempt to access it. Additionally, VPNs hide your IP address, which can make it appear as if you're in a different geographic location, which blocks location-based targeting.
 
-While there are free VPN options, we do not recommend using them, as many of the free VPNs actually track and share your online behavior. If you're going to use a VPN, you will need to research an option that works for you based on your needs. If obscuring your browsing and connection history is essential, make sure you use a VPN that does not store any access logs. These two [guides provide](https://torrentfreak.com/vpn-anonymous-review-160220/) a list of [things to consider](http://www.howtogeek.com/221929/how-to-choose-the-best-vpn-service-for-your-needs/), along with recommendations.
+I used to not recommend specific VPNs, because the choice of a VPN involves a range of factors. However, because the VPN space is a mess, and using an unscrupulous VPN can cause real harm, I now recommend Mullvad VPN. 
 
-Most VPN services offer plans that can be used on computers, phones, and tablets.
+While there are free VPN options, we do not recommend using them, as many of the free VPNs actually track and share your online behavior. 
 
 Many companies provide VPNs for their employees. While these VPNs protect against people outside the company seeing traffic, people using a company-provided VPN should know and expect that their company's IT department can see all their online browsing activity and that in many cases that activity is logged.
 
 Increased Anonymity and Tracking Protection
 -------------------------------------------
+
+### Tails
 
 For people who work from multiple computers, or who for whatever reason don't want to use their computer or phone to browse privately, [Tails](https://tails.boum.org/) allows you to boot from a USB key and use Tor to browse the web without leaving any trace of your activity on your host computer.
 
@@ -195,18 +198,20 @@ Because Tails can be treated as a throwaway operating system, it offers a level 
 
 Tails is a specialized tool that isn't needed by everyone, but it can be useful for people who need to communicate privately from a system that will be difficult to trace, and its preconfigured privacy protections allow people to get started quickly.
 
+### Raspberry Pi
+
+Another option for people who want a private, segmented way to access the internet is to use a Raspberry Pi. The Pi 5 is a very solid machine, and you can set it up as a standalone device to use for specialized work. Using a Pi for specialized work where you don't want to expose your main device can provide a level of safety and flexibility. Getting a Pi 5 (the latest as of June 2024) costs around $100-150 US, depending on the setup of the Pi you get.
+
 Password Managers
 -----------------
 
-Our advice on password managers is straightforward: Use one. LastPass, Password Gorilla, 1Password, KeePass, and Dashlane all are solid options.
+Our advice on password managers is straightforward: Use one. I generally recommend 1Password for sharing between multiple people or devices, and KeepassXC for local use.
+
+I also [do not recommend using LastPass](https://www.wired.com/story/lastpass-breach-vaults-password-managers/).
 
 While no single solution is perfect, password managers eliminate the problems of reusing the same password across multiple sites and using passwords that are too short or too simple. Password managers also generate passwords that are truly random and un-guessable. Additionally, many password managers have a mechanism wherein you can create secure notes to save important information.
 
-To state the obvious, putting all this information in a single location is also a risk; this is why the password manager must also be protected by a strong password and a second factor of authentication, such as your mobile phone. While writing passwords down is almost never a good idea, writing down only the password to your password manager and your primary device (i.e., computer or mobile phone), and then storing these passwords in a safe location, allows you to have a suitably strong password protecting these key services while eliminating the risk that you will forget the passwords. [This post contains tips](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) on creating both secure and memorable passwords.
-
-This study looks at four leading password managers and [provides some good information](https://www.computer.org/cms/Computer.org/ComputingNow/issues/2016/11/mit2016050034.pdf) on evaluating them.
-
-While both Firefox and Chrome offer the ability to store passwords, avoid using this feature. It is not as secure as a password manager.
+To state the obvious, putting all this information in a single location is also a risk; this is why the password manager must also be protected by a strong password and two factor authentication. While writing passwords down is almost never a good idea, writing down only the password to your password manager and your primary device (i.e., computer or mobile phone), and then storing these passwords in a safe location, allows you to have a suitably strong password protecting these key services while eliminating the risk that you will forget the passwords. [This post contains tips](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) on creating both secure and memorable passwords.
 
 Two-Factor Authentication
 -------------------------
@@ -278,13 +283,11 @@ Simple Steps
 
 When we discuss privacy, we often become too focused on the tools rather than on the behavioral shifts required to use the tools well. At the same time, when discussing how to improve privacy and security, we often get stuck in the details and fail to acknowledge that we all can do simple things to increase the control we have over our privacy. This post goes into detail well beyond these simple steps, but using these steps as a starting point would be a marked improvement for most of us.
 
-Easy, free steps to protect our privacy start with using these browser add-ons when you browse the web:
+Easy, free steps to protect our privacy start with blocking trackers when browsing the web:
 
 -   [uBlock Origin](https://github.com/gorhill/uBlock) (blocks ad trackers)
--   [Privacy Badger](https://www.eff.org/privacybadger) (blocks ad trackers)
--   [HTTPS Everywhere](https://www.eff.org/https-everywhere) (forces the browser to use an encrypted connection if one is available on the current site)
 
-Use alternatives to Google for search: Use [Duck Duck Go](https://duckduckgo.com/), [StartPage](https://www.startpage.com/), and/or [Disconnect.me](https://search.disconnect.me/). These search engines minimize tracking and, when used in conjunction with add-on tracking blockers, help sidestep issues related to filter bubbles.
+Use alternatives to Google for search: Use [Duck Duck Go](https://duckduckgo.com/) or [Stract](https://stract.com/). While the results from Stract are less predictable than would be ideal, it can be a very useful option to find sources that other services might bury.. 
 
 Whenever possible, set up [two-factor authentication](#two-factor-authentication) to protect accounts.
 
@@ -300,11 +303,10 @@ Take these steps that are slightly more complex and still free:
 -   Use [Tor](https://www.torproject.org/) when browsing for sensitive information.
 -   Delete cookies from your browser.
 
-Try three additional options that add privacy protection but are not free:
+Try these additional options that add privacy protection but are not free:
 
 -   Use a virtual private network, or VPN, when browsing the internet from your computer, phone, or tablet.
 -   Use a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen). This will help prevent people from reading over your shoulder.
--   Use Spider Oak for encrypted cloud-based file storage.
 
 A final step we all can take involves cleaning up the old files we have in our online file storage and deleting old emails we have stored online. No one needs to be a data hoarder. Setting up a time each month to delete emails and files we no longer need, and to archive items we don't have an immediate need for, helps minimize the risk of old information becoming compromised.
 
