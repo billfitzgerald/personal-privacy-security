@@ -107,8 +107,8 @@ In addition to these steps, disabling and removing unused browser plug-ins is st
 
 A final note here involves the use of so-called "private" or incognito browsing. Avoid it. If you want private browsing for everyday activities, use the steps outlined in this section. If you want truly private browsing, use Tor, as described in the next section.
 
-News and Search
----------------
+Search
+------
 
 https://www.nytimes.com/2024/06/01/technology/google-ai-overviews-rollback.html
 
@@ -150,6 +150,13 @@ One "advantage" of both email and cloud-based file storage (discussed below) is 
 On a practical level, in some instances email can be used in criminal cases or civil lawsuits. Deleting unneeded emails, and deleting older emails, provides a level of protection against frivolous legal action.
 
 A final note about email: It is only as secure as the person you're sending it to, and the "security" of the message should be assessed against the sensitivity and value of the message. If you're using an encrypted email service and you're sending messages to a person using a personal Gmail account, that email is getting scanned by Google. We generally advise people to consider email an insecure service. Accordingly, sending information about a surprise party is probably pretty safe, whereas sending information about a Dark Family Secret is something you might want to save for an in-person conversation.
+
+Clear Data From Google
+----------------------
+
+For people who use Google, you can control (to an extent) what Google retains, or what Google shows you they retain. 
+
+https://support.google.com/accounts/answer/7028918
 
 Secure Online File Storage
 --------------------------
@@ -252,6 +259,13 @@ Institutional or organizational wireless is theoretically easier to secure, but 
 Home wireless networks are as secure as the wireless encryption protocol and the passwords used to access the settings on the routers and the [passwords or security](https://www.theguardian.com/technology/2015/nov/26/hackers-can-hijack-wi-fi-hello-barbie-to-spy-on-your-children) on any connected devices. For most of us, home wireless networks are relatively safe. Generally, an attack on a home network would be part of a focused attempt against an individual.
 
 It's also worth remembering that our devices will automatically connect to "recognized" wireless connections. This can be exploited by hackers who can create illicit networks in public places. Common names such as "attwifi," "xfinity," or "linksys" can easily be spoofed -- and once you connect to a wireless access point, the person who controls that access point has the ability to see and control your online activity. A VPN mitigates this risk, as does turning off wireless on your phone when you go out. You can also minimize risk by deleting wireless networks that are outside your regular locations.
+
+Kill AI
+-------
+
+Microsoft, Google, Apple, Meta, Mozilla are all running headlong into the ethical and privacy morass that is data collection from their customers to support developing AI tools that they promise and pinky swear will be really helpful for us, and will only require that they get access to all of our data.
+
+TBD: collect/curate guides that show how to blunt or (ideally) disable data collection that supports AI, and/or data collection that goes beyond the bare minimum required. 
 
 Summary
 -------
