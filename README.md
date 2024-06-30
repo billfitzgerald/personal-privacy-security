@@ -228,6 +228,23 @@ An additional option that has some advantages over using text or a service is to
 
 But to summarize, any form of two-factor authentication adds a level of protection against unauthorized access. Using a USB key also protects against hackers and doesn't leak information to the other companies that will use personal information -- such as a phone number tied to an email address and other personal information -- to track us.
 
+Passkeys versus Passwords
+-------------------------
+
+Passkeys have been promoted as a way to replace passwords, and all of the security concerns [related to passwords](https://blog.1password.com/passkeys-vs-passwords-differences/). 
+
+[Passkeys](https://fidoalliance.org/passkeys/) have been under development for years, and the initiative to adopt them took on extra steam in 2022 when Google, Apple, and Microsoft [announced support for the standard](https://fidoalliance.org/apple-google-and-microsoft-commit-to-expanded-support-for-fido-standard-to-accelerate-availability-of-passwordless-sign-ins/).
+
+If you use software or services from the major tech companies, Passkeys can have security benefits. Not every web site or service supports passkeys, however, which makes a complete switch for most people impossible. 
+
+Additionally, the usability of passkeys -- like any new-ish technology that aims to replace a legacy technology that we are all familiar with -- [suffers in comparison](https://www.wired.com/story/stopped-using-passwords-passkeys/) with passwords. Some of the problems are related to user experience issues, and some of the problems are related to the simple reality that passkeys are different. 
+
+One core issue with passkeys is directly tied to how they are implemented. Passkeys are defined by a web standard, but the standard can be implemented differently. We see this in the education space all the time: the same standard is implemented in non-standard ways, which is why interoperability remains a marketing claim rather than a lived reality.
+
+The big tech implementation of passkeys has received criticism as another way for big tech companies to [lock people into their closed systems](https://proton.me/blog/big-tech-passkey). Because of the past and current behavior of large tech companies, they don't make the most trustworthy partners, especially when it comes to handing them a central, controlling role in allowing access to all corners of our online life.
+
+Technically, passkeys look promising. The reality of that promise remains to seen (and I'm old enough to remember when SXIP and OpenID were going to solve related problems).
+
 Phone/Tablet and Apps
 ---------------------
 
