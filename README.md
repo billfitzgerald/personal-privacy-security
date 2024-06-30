@@ -237,13 +237,15 @@ Passkeys have been promoted as a way to replace passwords, and all of the securi
 
 If you use software or services from the major tech companies, Passkeys can have security benefits. Not every web site or service supports passkeys, however, which makes a complete switch for most people impossible. 
 
-Additionally, the usability of passkeys -- like any new-ish technology that aims to replace a legacy technology that we are all familiar with -- [suffers in comparison](https://www.wired.com/story/stopped-using-passwords-passkeys/) with passwords. Some of the problems are related to user experience issues, and some of the problems are related to the simple reality that passkeys are different. 
+Additionally, the usability of passkeys -- like any new-ish technology that aims to replace a legacy technology that we are all familiar with -- [suffers in comparison](https://securityboulevard.com/2023/10/why-were-stuck-with-passwords/) with passwords. Some of the problems are related to user experience issues, and some of the problems are related to the simple reality that passkeys are less familiar than passwords, and that for passkeys to truly work they need to be broadly adopted. Passkeys are a new metaphor for what it means to authenticate and how we authenticate, while passwords are the devil that we know.
 
 One core issue with passkeys is directly tied to how they are implemented. Passkeys are defined by a web standard, but the standard can be implemented differently. We see this in the education space all the time: the same standard is implemented in non-standard ways, which is why interoperability remains a marketing claim rather than a lived reality.
 
 The big tech implementation of passkeys has received criticism as another way for big tech companies to [lock people into their closed systems](https://proton.me/blog/big-tech-passkey). Because of the past and current behavior of large tech companies, they don't make the most trustworthy partners, especially when it comes to handing them a central, controlling role in allowing access to all corners of our online life.
 
 Technically, passkeys look promising. The reality of that promise remains to seen (and I'm old enough to remember when SXIP and OpenID were going to solve related problems).
+
+1Password maintains a [searchable list of sites](https://passkeys.directory/) that support Passkeys. As of this writing, it shows 168 sites and services.
 
 Phone/Tablet and Apps
 ---------------------
