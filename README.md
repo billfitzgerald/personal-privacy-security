@@ -154,9 +154,25 @@ A final note about email: It is only as secure as the person you're sending it t
 Clear Data From Google
 ----------------------
 
-For people who use Google, you can control (to an extent) what Google retains, or what Google shows you they retain. 
+For people who use Google, you can control (to an extent) what Google retains, or [what Google shows you they retain](https://support.google.com/accounts/answer/7028918). 
 
-https://support.google.com/accounts/answer/7028918
+While using the options Google provides is better than doing nothing, it's best to think about this as a mitigation strategy that needs to be verified periodically (every 3-6 months) to make sure that Google doesn't change any settings in an "update". If time is an issue, other steps can provide more return for the time required. 
+
+Adjust Privacy Settings (Really, Visibility Settings)
+-----------------------------------------------------
+
+There are many posts that show how to lock down accounts. These steps are critical protection against stalkers, abusive partners, scammers, and other predatory and abusive behaviors that are furthered when bad actors access social media and other online accounts.
+
+I'm not linking to any specific guides because the mechanisms change regularly, and any link I shared would be obsolete within weeks, days, or hours. Rather, use this search for the services you want to lock down:
+
+- <code>SERVICE_NAME "privacy" "setting"</code>
+
+The top results will generally highlight some guides, and a link to where you can access the privacy/visibility settings on the service.
+
+For people going through a breakup, there are other factors to consider. I wrote about [this a while back](https://archive.funnymonkey.com/2021/locking-things-down-post-breakup.html), and Yael Grauer [wrote a thorough piece on this](https://www.consumerreports.org/dating-relationships/how-to-reclaim-online-accounts-after-a-relationship-ends-a1025933836/). 
+
+And, while adjusting privacy settings is necessary to protect ourselves from the prying eyes of the general public, "privacy" settings are better understood as visibility settings. They largely govern what people can see, but they have little to no impact on what the company can see. There is no such thing as a privacy setting from Google, Facebook, Instagram, X, Tiktok, LinkedIn, etc. These companies can see information you mark as private, as seen when Facebook shared private messages that were used for [prosecuting people who needed to access medical care](https://www.npr.org/2022/08/12/1117092169/nebraska-cops-used-facebook-messages-to-investigate-an-alleged-illegal-abortion).
+
 
 Secure Online File Storage
 --------------------------
@@ -168,9 +184,9 @@ Virtual Private Networks (VPNs)
 
 For people who access the internet from outside their home or office, using a virtual private network (or VPN) can provide different levels of protection from a nosy kid playing at hacker on the coffee shop Wi-Fi network or from a person trying to steal private information as part of an attempt at identity theft. VPNs can also obscure which sites a person visits, thus hiding their browsing histories from people who might attempt to access it. Additionally, VPNs hide your IP address, which can make it appear as if you're in a different geographic location, which blocks location-based targeting.
 
-I used to not recommend specific VPNs, because the choice of a VPN involves a range of factors. However, because the VPN space is a mess, and using an unscrupulous VPN can cause real harm, I now recommend Mullvad VPN. 
+I used to not recommend specific VPNs, because the choice of a VPN involves a range of factors. However, because the VPN space is a mess, and using an unscrupulous VPN can cause real harm, I now recommend Mullvad VPN. There are a few reasons for this, but the shortest version is that in April 2023, Mullvad was served with a search warrant requesting customer data. The police showed up demanding information, and left with nothing: no data, no equipment, nothing, because Mullvad as a matter of policy [didn't have it](https://mullvad.net/en/blog/2023/4/20/mullvad-vpn-was-subject-to-a-search-warrant-customer-data-not-compromised). Mullvad followed up by requesting more information from the authorities that issued the warrant, and then [published that correspondence](https://mullvad.net/en/blog/2023/5/2/update-the-swedish-authorities-answered-our-protocol-request) as well. 
 
-While there are free VPN options, we do not recommend using them, as many of the free VPNs actually track and share your online behavior. 
+While there are free VPN options, I do not recommend using them, as many of the free VPNs actually track and share your online behavior. A free VPN can cause more harm than good. One clear and obvious example of this is when [Facebook used a VPN they controlled](https://techcrunch.com/2019/01/29/facebook-project-atlas/) to spy on people between the ages of 13-35. In 2016, [researchers showed that multiple vulnerabities existed](https://research.csiro.au/isp/wp-content/uploads/sites/106/2016/08/paper-1.pdf) in free VPNs. These problems in free VPNs [continue to exist and evolve](https://www.bleepingcomputer.com/news/security/free-vpn-apps-on-google-play-turned-android-phones-into-proxies/).
 
 Many companies provide VPNs for their employees. While these VPNs protect against people outside the company seeing traffic, people using a company-provided VPN should know and expect that their company's IT department can see all their online browsing activity and that in many cases that activity is logged.
 
