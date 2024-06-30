@@ -189,6 +189,20 @@ Tails is a specialized tool that isn't needed by everyone, but it can be useful 
 
 Another option for people who want a private, segmented way to access the internet is to use a Raspberry Pi. The Pi 5 is a very solid machine, and you can set it up as a standalone device to use for specialized work. Using a Pi for specialized work where you don't want to expose your main device can provide a level of safety and flexibility. Getting a Pi 5 (the latest as of June 2024) costs around $100-150 US, depending on the setup of the Pi you get.
 
+Creating "Good" Passwords
+-------------------------
+
+Password advice has evolved. Complexity is out. Forced password changes [are out](https://grahamcluley.com/new-nist-guidelines-do-away-with-periodic-password-changes/). Both of these practices contribute to less secure passwords, and password reuse. Passphrases -- multiple random words -- are more effective. Both [NIST](https://www.nist.gov/blogs/taking-measure/easy-ways-build-better-p5w0rd) and [XKCD](https://xkcd.com/936/) agree, which is as close as we can ever hope to get to consensus.
+
+Passphrases consist of multiple words, often with capitalization, often with numbers or special characters. To illustrate the point with two examples:
+
+- Password one: Qevglm&%nGhkjkwjgf9p2479p24hcodh08qehcueh8q
+- Password two: Table-Connection-Enigmatic-Squirrel-Manbun5
+
+Both of these passwords are the same length - 43 characters, which is plenty long. One of these passwords is easier to remember, and to type into forms. Password two is a passphrase - basically a password that is just as hard for a computer to crack, but much easier for a human to remember. Choose words that make sense to you -- even made up words. 
+
+Passphrases allow us to have longer passwords, which helps them be more secure.
+
 Password Managers
 -----------------
 
