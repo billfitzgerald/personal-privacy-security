@@ -251,7 +251,17 @@ TBD
 Virtual Private Networks (VPNs)
 -------------------------------
 
+This section covers two types of VPNs: the work-provided VPN, and personal VPNs.
 
+### Work VPN
+
+The work VPN protects the resources of your company. This makes sense. It protects the company from IP theft, and improves the security of your organization, and the integrity of work-provided tools and services.
+
+Work-provided VPNs also see everything you do when you are online. They do not offer you any greater level of privacy. In general, you do not have any expectation of privacy when using any work-provided hardware, and your work-provided VPN is part of that picture.
+
+If your company provides you a VPN, use it, and be aware that your boss can likely access anything you do, and when you do it.
+
+### Personal VPNs
 
 For people who access the internet from outside their home or office, using a virtual private network (or VPN) can provide different levels of protection from a nosy kid playing at hacker on the coffee shop Wi-Fi network or from a person trying to steal private information as part of an attempt at identity theft. VPNs can also obscure which sites a person visits, thus hiding their browsing histories from people who might attempt to access it. Additionally, VPNs hide your IP address, which can make it appear as if you're in a different geographic location, which blocks location-based targeting.
 
@@ -261,12 +271,14 @@ While there are free VPN options, I do not recommend using them, as many of the 
 
 Many companies provide VPNs for their employees. While these VPNs protect against people outside the company seeing traffic, people using a company-provided VPN should know and expect that their company's IT department can see all their online browsing activity and that in many cases that activity is logged.
 
+**NOTE**: when you are using the internet from your home, your internet service provider (ISP) can see where you go online. They log this information. Using a VPN at home prevents your ISP from collecting this information. ISPs, like all companies, can be compelled to share data with governments, law enforcement, and in response to a valid legal request. 
+
 Increased Anonymity and Tracking Protection
 -------------------------------------------
 
 ### Tails
 
-For people who work from multiple computers, or who for whatever reason don't want to use their computer or phone to browse privately, [Tails](https://tails.boum.org/) allows you to boot from a USB key and use Tor to browse the web without leaving any trace of your activity on your host computer.
+For people who work from multiple computers, or who for whatever reason don't want to use their computer or phone to browse privately, [Tails](https://tails.net/) allows you to boot from a USB key and use Tor to browse the web without leaving any trace of your activity on your host computer.
 
 Because Tails can be treated as a throwaway operating system, it offers a level of flexibility other options might not have. Tails can also be useful as a tool to access the internet securely when connecting from places where we might not trust the security of the internet connection.
 
