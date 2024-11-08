@@ -1,6 +1,11 @@
-**Note, 26 June 2024** - this guide has languished for a bit. Some of the advice is still useful. Some of it is woefully out of date. I'll be updating it over the next few weeks/months to bring it current. When it's ready to go, I'll remove this note. **End Note**
+**Note, 8 Nocember 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
+
+Introduction
+------------
 
 Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy. This post covers a range of concrete steps we can all take to regain control over what, when, and with whom we share. Some of the things we discuss will involve technology, and some of them won't. The majority of the suggestions we make involve tools or practices that are freely available. The vast majority of things we suggest are also designed to be accessible without a large amount of technical knowledge. The steps we outline here are intended as a solid starting point, and not a comprehensive solution, but with that said, the steps we define here minimize or eliminate many common issues.
+
+Also, the steps in this guide are about minimizing risk, exposure, and the potential harm that comes from risk and exposure. These steps can reduce risk, which is great, but it's not the same as eliminating risk. Do what works for you, and do it as consistently as possible. The best steps you take are the ones you take. Start small, build up gradually, and make informed choices.
 
 
 Assessing Risk
@@ -14,7 +19,7 @@ When we think about protecting our privacy, we generally start with these questi
 -   Do the consequences change or shift over time (short-, medium-, long-term)?
 -   How much effort are we willing to put into making any needed changes?
 
-These factors can help determine our priorities: What information is most important to protect? Why? How much effort should be put into protecting something? Should we prioritize easy changes over things that might be more important, yet more complicated? The right path will vary person by person, and that's normal. It's also normal to start down one path and change. Do what feels right, and do what's possible.
+These factors can help determine our priorities: What information is most important to protect? Why? How much effort should be put into protecting something? Should we prioritize easy changes over things that might be more important, yet more complicated? The right path will vary person by person, and that's normal. It's also normal to start down one path and change. Do what feels right, do what's possible, and be flexible in your implementation.
 
 Use the questions listed above to structure decisions. In the conversations below, we will highlight how easy or hard some changes are to make.
 
@@ -23,20 +28,82 @@ In Person/Face-to-Face
 
 There are a range of ways people can access information if they're physically close to you. In this section, we will highlight ways to minimize the risk of people seeing information they don't need to see.
 
-At the outset, I want to highlight that going into a public space means you will be caught up in [some form of observation](https://www.youtube.com/watch?v=npM-tWbyyiI). This can be as benign and accidental as being in the background of someone's photo in a public place, getting captured in a person's connected doorbell (ie, Ring, etc), or it could be as focused as having your [license plate scanned](https://www.aclu.org/feature/you-are-being-tracked) as part of [data collection by law enforcement](https://sls.eff.org/). It's also worth remembering that many public places (most stores, malls, supermarkets, gas stations, public transit, and the like) are covered by closed-circuit television cameras.
+At the outset, I want to highlight that going into a public space means you will be caught up in [some form of observation](https://www.youtube.com/watch?v=npM-tWbyyiI). This can be as benign and accidental as being in the background of someone's photo in a public place, getting captured in a person's connected doorbell (ie, Ring, etc), or it could be as focused as having your [license plate scanned](https://www.aclu.org/feature/you-are-being-tracked) as part of [data collection by law enforcement](https://sls.eff.org/). It's also worth remembering that many public places (most stores, malls, supermarkets, gas stations, public transit, and the like) are covered by closed-circuit television cameras. Increasingly, stores are using video surveillance on both staff and customers. Expect this to get worse in the near future as stores and other public and semi-public spaces [use AI-based products](https://gizmodo.com/facial-recognition-that-tracks-suspicious-friendliness-is-coming-to-a-store-near-you-2000519190) of dubious value.
 
 If you are accessing or working in a public space, one of the most common ways that people can get information about you is by watching your screen as you work. This hallmark of the perpetually nosy -- also known as "shoulder surfing" -- can range from simply annoying to potentially dangerous, depending on what you're doing. It's not difficult to imagine web searches where we wouldn't want some stranger, sibling, uncle, or other person reading over our shoulder.
 
 Fortunately, a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen) will block shoulder surfing. For other people who work in public spaces -- from coffee shops to offices and libraries -- the following steps can minimize your risk:
 
--   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has. Better yet, if working in a public space, don't leave your computer or phone unattended. The hassle from carrying your tech with you when you step into the bathroom is dwarfed by the hassle of having your stuff stolen, or your information compromised. **Note**: locking your desktop when you leave your desk/workspace applies for working in an office as well.  
+-   If you're working and you leave your computer, lock your screen with your password or power it down. If you leave a computer when you're still logged in, anyone can sit down and access your computer and use all the information it has. Better yet, if working in a public space, don't leave your computer or phone unattended. The hassle from carrying your tech with you when you step into the bathroom is dwarfed by the hassle of having your stuff stolen, or your information compromised. **Note**: locking your desktop when you leave your desk/workspace applies for working in an office as well.
 -   Encrypt your hard drive on your computer. Instructions for [Mac](https://support.apple.com/guide/mac-help/protect-data-on-your-mac-with-filevault-mh11785/mac), instructions for [Windows](https://support.microsoft.com/en-us/windows/device-encryption-in-windows-ad5dcf4b-dbe0-2331-228f-7925c2a3012d), instructions for [Ubuntu linux](https://ubuntu.com/tutorials/install-ubuntu-desktop#6-type-of-installation). If your computer is lost or stolen, having an encrypted hard drive will prevent unauthorized access to any information on it. It's worth noting that encrypting your hard drive will not mean much if you have a weak password for your login.
 -   If you're using a newer iPhone or iPad or a newer [Android device](https://source.android.com/docs/security/features/encryption), then your device is likely already encrypted by default. If you use an iPhone and are at higher risk, or if you want to experiment with a more secure setup, try [Lockdown mode](https://support.apple.com/guide/iphone/use-lockdown-mode-iph049680987/17.0/ios/17.0). Encrypting your phone or tablet prevents access to information stored on the device in case of loss or theft. It's worth noting that encrypting your phone will not mean much if you use fingerprint unlock or a weak password. It's also worth noting that protections on the device can be undermined by backing up to cloud based storage, or by installing apps with overly broad permissions. We talk about additional protections available on phones later in this writeup.
 -   If you use external storage (ie, any USB storage), encrypt the drive and use a strong passphrase to protect it. [Windows instructions](https://www.howtogeek.com/encrypt-usb-flash-drive-windows/), [Mac instructions](https://support.apple.com/guide/disk-utility/encrypt-protect-a-storage-device-password-dskutl35612/mac), [Linux instructions]().
--	Be careful with -- to the point of never using -- [external USB storage](http://www.computerworld.com/article/2514934/security0/1-in-4-worms-spread-through-infected-usb-devices.html) where you do not know the source of the drive. This especially applies to any drive you find, but also to drives that vendors "helpfully" give out as swag at conferences. If you haven't bought the drive yourself from a vendor you trust, don't connect it to your computer. This also can apply to situations where someone asks you to print a file for them off a USB key. It can be awkward to say "no", but we are often only as secure as our least secure friend or relative.
--   Use a [password manager](https://en.wikipedia.org/wiki/Password_manager). At first blush, this doesn't seem to make a lot of sense for inclusion in a section on potential risks from someone being in the same physical space as you, but using password managers solves one common problem: writing usernames and passwords on paper where they can be read, photographed, or used by unauthorized people. (Fact: I have seen usernames and passwords written on a whiteboard get included in promotional videos.) Password managers are covered in more detail later in this blog series.
+-	Be careful with -- to the point of never using -- [external USB storage](http://www.computerworld.com/article/2514934/security0/1-in-4-worms-spread-through-infected-usb-devices.html) where you do not know the source of the drive. This especially applies to any drive you find, but also to drives that vendors "helpfully" give out as swag at conferences. If you haven't bought the drive yourself from a vendor you trust, don't connect it to your computer. This also can apply to situations where someone asks you to print a file for them off a USB key. It can be awkward to say "no", but we are often only as secure as our least secure friend or relative. External drives can be used to deliver a range of malware. If you **avoid using drives where you do not explicitly trust the source, you can eliminate this risk**. 
+-   Use a [password manager](https://en.wikipedia.org/wiki/Password_manager). At first blush, this doesn't seem to make a lot of sense for inclusion in a section on potential risks from someone being in the same physical space as you, but using password managers solves one common problem: writing usernames and passwords on paper where they can be read, photographed, or used by unauthorized people. (Fact: I have seen usernames and passwords written on a whiteboard get included in promotional videos.) Password managers are covered in more detail later in this blog series. An open source option like KeePassXC does not cost money; 1Password costs $3/month for a personal account, and Bitwarden costs $10/year for a personal account (prices checked June 2024).
 
-There are other steps you can take to minimize risks that arise from physical access, but using a **privacy screen**, **encrypting** devices, not leaving devices **logged in while they're unattended**, and being **careful with external storage devices** can eliminate many common issues. Privacy screens cost between $15 and $60, and the other options discussed today are free. As we stated at the outset, eliminating all risk is impossible, but these steps can reduce risks to which we're all commonly exposed.
+There are other steps you can take to minimize risks that arise from physical access, but using a **privacy screen**, **encrypting** devices, not leaving devices **logged in while they're unattended**, and being **careful with external storage devices** can eliminate many common issues. As we stated at the outset, eliminating all risk is impossible, but these steps can reduce risks to which we're all commonly exposed.
+
+Going Next Level On Your Phone
+------------------------------
+
+Phones are tricky. One way of thinking about phones is that we all pay money to carry a GPS tracking device, a microphone, and a video surveillance tool that can also make phone calls. Arguably, phones are the most intrusive risk to our privacy and security, and the phone operating system market can feel like a duopoly: Android or iOS.
+
+Fortunately, other options exist. 
+
+[CalyxOS](https://calyxos.org) is a solid option for a more privacy-conscious phone. They support a [large number of phones](https://calyxos.org/install/), and you can also buy a phone with [CalyxOS pre-installed](https://members.calyxinstitute.org/enroll/device). The install process for Calyx is well documented and complete, and it requires some familiarity with the command line. With that said, because the documentation is thorough, it looks more complex than it is.
+
+[GrapheneOS](https://grapheneos.org) is another great option for people looking for a private and secure phone. Like Calyx, Graphene has well documented [installation instructions](https://grapheneos.org/install/) that are both detailed, and potentially intimidating for people who aren't familiar with setting up hardware. Graphene recommends a [recent Pixel phone](https://grapheneos.org/faq#recommended-devices).
+
+Both Graphene and Calyx are based off Android, and both pull the Google-reliant bits from the operating system. There are long and heated discussions about which system is better, and getting into that conversation is outside the scope of this post. Either option is more private that stock Android or iOS. Having used both systems, the one thing I will say is that Organic Maps is a good replacement option for Google Maps, which is the only Google service I truly miss. If and when I have needed Google Maps (maybe once every 4-6 months?) I'll either piggyback off a friends phone (because I'm a freeloader like that) or load Google Maps in the phone's web browser.
+
+Moving off Android or iOS can be a tall order. The instally process is not simple, and in some cases a botched install can brick your phone. Fortunately, the NSA (I know - ironic, right?) has a [good guide](https://s3.documentcloud.org/documents/21018353/nsa-mobile-device-best-practices.pdf) on steps to take when using Android and iOS devices. This guidance came out in October 2020, and it still holds up. 
+
+One piece of advice buried in ths guidance: **turn your phone off at least once a week**. There are some types of attacks that run without impacting the underlying operating system, and powering your phone off will stop these attacks from working. While this won't stop every type of attack that targets phones, giving the relative simplicity of the defense (turn off, wait 60 seconds, turn on) it's an easy, accessible step we can all take.
+
+Avoiding Scams
+--------------
+
+Scammers congregate where people [have a need](https://consumer.ftc.gov/consumer-alerts/2023/01/looking-job-scammers-might-be-looking-you) or want something. That makes job boards, dating sites, ticket sales, charitable donations, and ecommerce very attractive vectors for criminals. Scammers exploit need, in the many different ways that needs appear for different people.
+
+And: scammers often work to exploit our better impulses. We want to believe people. We want to believe that a romantic connection is real. We want to believe that we have finally stumbled across a great deal.
+
+Scammers also rely on our inherent politeness. A good many people will stay in an awkward interaction rather than leave it in a way that feels rude. Scammers know this, and they exploit it. It's okay to set boundaries, and it's okay to leave a situation, for any reason -- this is true for scams, and it's true for life. No one has a right to your time or attention, and people who pretend otherwise are showing that they should not be trusted.
+
+Describing every different type of scam is outside the scope of this post. In this post, I'll highlight the behaviors scammers are looking to exploit, using a subset of scams as examples. The technology used to deliver the scams is often secondary to the behaviors exploited in the scam. 
+
+**Never give out a password, or a secondary authentication code, even to someone who claims to be a company representative**. If someone online is being very helpful, they are often trying to rip you off.
+
+Be very hesitant to screen share with any tech support staff. While this can be a legitimate troubleshooting tool, it is often used as part of an attack to gather login information or other personal informatio.
+
+Avoid doing anything quickly, and be suspicious about manufactured urgency. Contrived urgency is designed to short-circuit our caution and our critical thinking. It's always okay to slow down, and anyone who tells you otherwise probably doesn't have your best interests at heart.
+
+Artificial Intelligence has been incredibly useful to criminals executing fraud and scams, and the companies creating these tools continue to fail at building guardrails that protect innocent people. Examples of AI-powered scams include situations where people get a [call from family members](https://arstechnica.com/tech-policy/2023/03/rising-scams-use-ai-to-mimic-voices-of-loved-ones-in-financial-distress/) -- often [a child](https://www.newyorker.com/science/annals-of-artificial-intelligence/the-terrifying-ai-scam-that-uses-your-loved-ones-voice) -- demanding help or a ransom quickly. 
+
+If you are working with someone online that you are getting to know and something works the first time, that doesn't mean it's okay. That means the scam will happen later. Some [investment and romance scams](https://krebsonsecurity.com/2022/07/massive-losses-define-epidemic-of-pig-butchering/) work this way: an initial investment for a small amount of money pays out a real return, and then the second or third investment -- for more money -- [results in the money being stolen](https://www.propublica.org/article/whats-a-pig-butchering-scam-heres-how-to-avoid-falling-victim-to-one).
+
+Never forward money from a check sent to you. This scam works because [scammers exploit the way banks "work"](https://consumer.ftc.gov/consumer-alerts/2020/03/whats-money-mule-scam). When a check is deposited or transferred, the money shows up in the account, and some of the money can even be accessed. If you trasnsfer money out of your account to a different account, you are liable for that money. However, when the check deposited turns out to be from an account that is overdrawn, you -- not the bank -- are liable for the loss. 
+
+If someone contacts you out of the blue with a service or offer that sounds amazing, it's probably not real. I don't mean to sound like a dick here, but reality can be very cruel to blind optimism.
+
+A specific type of scam where the criminals truly deserve a special place in hell: [romance scams](https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2023/02/romance-scammers-favorite-lies-exposed). These scams prey on people -- often women -- and are [cruel on multiple levels](https://www.abc.net.au/news/2020-02-14/alec-couros-face-used-to-catfish-women-no-justice-victims/11923206). Older people who have lost a partner are often targeted.
+
+The best way to not get scammed is to not respond. If you want to try and verify the offer, respond out of band. If they call, ask for a web site and email contact. If they email, ask for a web site and phone number. Ask for a physical address where you can contact them via mail (and watch their head spin as they understand the request).
+
+For example: "This sounds like a great offer. What is your name, what is the web site where I can learn more information, and what is the physical address where your business is located?" A legitimate business will be able to answer these questions quickly.
+
+In the space of a single conversation, a legitimate business can give you most or all of these pieces of information:
+
+- Employee name
+- Business name
+- Business physical address and/or
+- Business mailing address - some legitimate businesses are virtual and don't maintain a physical address
+- Phone number
+- Web site
+- Email addresses 
+
+This information can then be used to do more research about the business.
+
+But, and I can't stress this enough: be VERY skeptical of offers and opportunities that come unbidden, both online and in real life. You know what you need better than anyone, and one key way to avoid scams is to be intentional about the opportunities you seek, research them thoroughly, and act on them on your terms.
 
 General Maintenance When Using a Machine that Connects to the Internet
 ----------------------------------------------------------------------
@@ -60,7 +127,7 @@ Install operating system and software updates in a timely way.
 Safe(r) Browsing
 ----------------
 
-Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware.
+Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware. The connections betwee social media and malware continue to evolve, as [Meta continues to fail](https://www.bitdefender.com/en-us/blog/labs/unmasking-the-sys01-infostealer-threat-bitdefender-labs-tracks-global-malvertising-campaign-targeting-meta-business-pages/) to protect their users from malware attacks.
 
 And even if adtech wasn't commonly used to deliver malware, it should still be blocked for one core reason: unnamed companies, who we don't know, who haven't asked our consent, who don't have our best interests at heart, have no right to know what I'm doing online. I don't go online so The Trade Desk can exist. The data broker and adtech industries justify their ever-expanding quest to collect and retain more information about us with the disingenuous question of "where is the harm?"
 
@@ -74,9 +141,9 @@ I don't recommend using Chrome. Google has been threatening/promising to remove 
 
 I recommend splitting browser selection into two types of use: the Everyday browser, and the Research browser.
 
-For the Everyday browser, I still recommend [Firefox](). I [wrote a post](https://archive.funnymonkey.com/2020/browser-hygiene-for-better-privacy---think-of-it-like.html) a few years back that still holds up on how to configure Firefox post-install.
+For the Everyday browser, I still recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/). I [wrote a post](https://archive.funnymonkey.com/2020/browser-hygiene-for-better-privacy---think-of-it-like.html) a few years back that still holds up on how to configure Firefox post-install. Mozilla -- the organization that develops Firefox, is slowly going up in flames, but until a legitimate organization forks Firefox or a legitimate organization releases a browser that is fully featured and accessible to regular people, Firefox is the best choice we have.
 
-For the Research browser, use Tor and/or the Mullvad browser (which is a collaboration between Mullvad and Tor.)
+For the Research browser, use [Tor](https://www.torproject.org/) and/or the [Mullvad browser](https://mullvad.net/en/browser) (which is a collaboration between Mullvad and Tor.)
 
 ### Ad Blocking
 
@@ -267,7 +334,7 @@ Passkeys have been promoted as a way to replace passwords, and all of the securi
 
 If you use software or services from the major tech companies, Passkeys can have security benefits. Not every web site or service supports passkeys, however, which makes a complete switch for most people impossible. 
 
-Additionally, the usability of passkeys -- like any new-ish technology that aims to replace a legacy technology that we are all familiar with -- [suffers in comparison](https://www.wired.com/story/stopped-using-passwords-passkeys/) with passwords. Some of the problems are related to user experience issues, and some of the problems are related to the simple reality that passkeys are less familiar than passwords, and that for passkeys to truly work they need to be broadly adopted. Passkeys are a new metaphor for what it means to authenticate and how we authenticate, while passwords are the devil that we know.
+Additionally, the usability of passkeys -- like any new-ish technology that aims to replace a legacy technology that we are all familiar with -- [suffers in comparison](https://securityboulevard.com/2023/10/why-were-stuck-with-passwords/) with passwords. Some of the problems are related to user experience issues, and some of the problems are related to the simple reality that passkeys are less familiar than passwords, and that for passkeys to truly work they need to be broadly adopted. Passkeys are a new metaphor for what it means to authenticate and how we authenticate, while passwords are the devil that we know.
 
 One core issue with passkeys is directly tied to how they are implemented. Passkeys are defined by a web standard, but the standard can be implemented differently. We see this in the education space all the time: the same standard is implemented in non-standard ways, which is why interoperability remains a marketing claim rather than a lived reality.
 
@@ -314,12 +381,7 @@ Kill AI
 
 Microsoft, Google, Apple, Meta, Mozilla are all running headlong into the ethical and privacy morass that is data collection from their customers to support developing AI tools that they promise and pinky swear will be really helpful for us, and will only require that they get access to all of our data.
 
-TBD: collect/curate guides that show how to blunt or (ideally) disable data collection that supports AI, and/or data collection that goes beyond the bare minimum required. 
-
-Summary
--------
-
-Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy. In this brief post, we will cover some of the personal choices we can make and technical options we can use to take control over what we share and with whom we share it. This post is not comprehensive, but it provides some clear steps we all can take. We also attempt to ground the choices and options we recommend with additional context. When we talk about protecting our privacy, we need to consider what we're protecting -- and from whom we're protecting it.
+This section is not complete as of this writing. In the upcoming weeks and months, I will update this section, but at this writing (Nov 8, 2024) I want to publish the other areas of this guide rather than hold up sharing the entire guide because this section is incomplete.
 
 Simple Steps
 ------------
@@ -329,10 +391,8 @@ When we discuss privacy, we often become too focused on the tools rather than on
 Easy, free steps to protect our privacy start with blocking trackers when browsing the web:
 
 -   [uBlock Origin](https://github.com/gorhill/uBlock) (blocks ad trackers)
-
-Use alternatives to Google for search: Use [Duck Duck Go](https://duckduckgo.com/) or [Stract](https://stract.com/). While the results from Stract are less predictable than would be ideal, it can be a very useful option to find sources that other services might bury.. 
-
-Whenever possible, set up [two-factor authentication](#two-factor-authentication) to protect accounts.
+-	Use [Duck Duck Go](https://duckduckgo.com/) for search. It's not perfect, but it's better. 
+-	Whenever possible, set up [two-factor authentication](#two-factor-authentication) to protect accounts.
 
 When using your phone or tablet, these free steps can increase your control over your privacy:
 
@@ -342,7 +402,6 @@ When using your phone or tablet, these free steps can increase your control over
 
 Take these steps that are slightly more complex and still free:
 
--   Block JavaScript (adds additional protection but can add additional complexity; see options for both [Firefox](https://noscript.net/) and [Chrome](https://github.com/andryou/scriptsafe)).
 -   Use [Tor](https://www.torproject.org/) when browsing for sensitive information.
 -   Delete cookies from your browser.
 
