@@ -168,8 +168,6 @@ But in general, when we create an account on any site, that site will track our 
 
 Clearing your cookies, cache, and browsing history regularly minimizes the amount of data available to trackers (read our instructions for [Chrome](https://support.google.com/accounts/answer/32050?hl=en) and [Firefox](https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox)).
 
-Blocking JavaScript. In Firefox, the best option for this is [NoScript](https://noscript.net/). Using NoScript will break functionality on some sites.
-
 In addition to these steps, disabling and removing unused browser plug-ins is strongly recommended. In some instances, advertising companies or criminals have bought moderately popular extensions and used them to push trackers and malware. Disabling and deleting unused browser extensions minimizes this risk (read our instructions for [Chrome](https://support.google.com/chrome_webstore/answer/2664769?hl=en) and [Firefox](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)).
 
 A final note here involves the use of so-called "private" or incognito browsing. Avoid it. If you want private browsing for everyday activities, use the steps outlined in this section. If you want truly private browsing, use Tor, as described in the next section.
@@ -177,26 +175,24 @@ A final note here involves the use of so-called "private" or incognito browsing.
 Search
 ------
 
-https://www.nytimes.com/2024/06/01/technology/google-ai-overviews-rollback.html
+With the increased use of AI to create content, and the increased use of AI to deliver search results, search is becoming [increasingly useless](https://www.nytimes.com/2024/06/01/technology/google-ai-overviews-rollback.html).
 
-https://stract.com/
+For many of us, if we have Gmail accounts (either a personal or work account, or both) and we use Google for search, we almost always search when we are logged in to Google. This gives Google a very complete view of what we search for, which allows them to "personalize" searches to what Google thinks we want to see (if you want to see a small subset of what Google knows about you, visit https://myactivity.google.com/myactivity when logged into a Google account. While this is only a fraction of what Google knows about you, a quick scan through your search history is often illustrative and petrifying). "Personalization" ensures that two people searching for the same topic won't get the same results. However, when results are invisibly tailored "for" us, [bias appears](http://www.bbc.com/news/technology-21322183) in the results. There have also been [substantial charges that Google has abused](http://www.wsj.com/articles/inside-the-u-s-antitrust-probe-of-google-1426793274) its position as a leader in search.
 
-For many of us, if we have Gmail accounts (either a personal or work account, or both) and we use Google for search, we almost always search when we are logged in to Google. This gives Google a very complete view of what we search for, which allows them to "personalize" searches to what Google thinks we want to see (if you want to see a small subset of what Google knows about you, visit https://myactivity.google.com/myactivity when logged into a Google account. While this is only a fraction of what Google knows about you, a quick scan through your search history is often illustrative and petrifying). "Personalization" ensures that two people searching for the same topic won't get the same results. However, when results are invisibly tailored "for" us, [bias can appear](http://www.bbc.com/news/technology-21322183) in the results. There have also been [substantial charges that Google has abused](http://www.wsj.com/articles/inside-the-u-s-antitrust-probe-of-google-1426793274) its position as a leader in search.
-
--   [Duck Duck Go](https://duckduckgo.com/)
+-   Use [Duck Duck Go](https://duckduckgo.com/)
 
 When searching for sensitive information that you don't want shared, the best approach is to use Tor/Mullvad browser and search via Duck Duck Go. Using this strategy helps protect you from having your personal data collected by data brokers while searching for information.
 
-Email
------
+Email (and text, and social media)
+----------------------------------
 
-Email is one of the more convenient ways for bad things to happen to good people. While these steps won't solve all the problems with email, they can help address some of the more common issues. The risks in emails that are delivered to your inbox generally come from aggressive advertising or people trying to steal information, compromise your account, or even install ransomware.
+This section was originally focused on email, but the bulk of this advice applies to text messages and social media use as well.
 
-Of course, there is always the low risk of your uncle or cousin sending you that *hilarious* chain email, but protection from that is beyond the scope of this post.
+Email, text messages, and social media messages are all convenient ways for bad things to happen to good people. While the steps in this section won't solve all problems, they can help address some of the more common issues.
 
-Be wary of links and downloads coming to you via email, even if they appear to come from friends. When you're sending links or files via email, describe what you're sending. This helps the recipients of anything you send know why you're sending it. When you receive a file or a link, look for that context. If all the email says is, "Hey! You gotta check this out!," you should probably avoid the link (and this advice is true for text messages as well).
+Be wary of links and downloads, even if they appear to come from friends. When you're sending links or files via email, describe what you're sending, and why. This helps the recipients of anything you send know why you're sending it. When you receive a file or a link, look for that context. If all the message says is, "Hey! You gotta check this out!," you should definitely not check this out.
 
-To avoid a potentially malicious link, review the base URL and verify that it makes sense (mouse over any links before you click on them so you can review the URL that's displayed). People trying to steal your information will create website domains that look "right" but are actually fake (for example, "citibank.co" instead of "citibank.com").
+To avoid a potentially malicious link, review the base URL and verify that it makes sense (mouse over any links before you click on them so you can review the URL that's displayed). People trying to steal your information will create website domains that look "right" [but are actually fake](https://www.funnymonkey.com/2022/03/online-fraud-has-a-best-friend/). Using a tool like [VirusTotal](https://www.virustotal.com/gui/home/url) will help verify any potentially risky links.
 
 [Expand shortened links](https://duckduckgo.com/?q=expand+short+url) before you click on them. People trying to steal your information will often use shortened URLs to obscure where they're sending you.
 
@@ -204,9 +200,11 @@ Use extreme caution when downloading files, especially [files that are compresse
 
 The advice about using links and being suspicious of file downloads applies directly to using social media as well. Be very wary about expanding links sent via direct or private messages from acquaintances you follow. This is a common attack strategy: Compromise one account, then send malware to all the "friends" of that account.
 
-Set your email client to strip or not display images. Marketers will often embed tracking technology called a "tracking pixel" in emails; by stripping or not displaying images, you can prevent the effectiveness of this tracking method.
+One additional detail: it is very difficult to verify links when working on a small screen. Use a laptop or a desktop to verify a url if you have doubts. If you are concerned about taking the extra time, please remember that the time required to clean up your system after you are compromised is exponentially longer than the amount of time required to verify a url.
 
-Don't hesitate to ask for confirmation from someone about whether or not a message is legitimate. It's better to send a quick email response asking for confirmation than for your system to get compromised.
+Set your email client to strip or not display images. Marketers will often embed tracking technology called a "tracking pixel" in emails; by stripping or not displaying images, you can prevent the effectiveness of this tracking method. Some email services 
+
+Don't hesitate to ask for confirmation from someone about whether or not a message is legitimate. It's better to send a quick email response asking for confirmation than for your system to get compromised. While there are situations where a power dynamic can make this request uncomfortable, erring on the side of caution can save you time and hassle after the fact.
 
 If you want an encrypted email account, use a service like [Protonmail](https://protonmail.com/). However, when using an encrypted email account, keep in mind that both the sender and receiver of the email need to use an encrypted email service. If you send an email from a Protonmail account to a Yahoo or Gmail account, your email and information will be accessible to the ad scanning in those services.
 
@@ -228,6 +226,10 @@ While using the options Google provides is better than doing nothing, it's best 
 Adjust Privacy Settings (Really, Visibility Settings)
 -----------------------------------------------------
 
+Many social media services talk about their privacy settings. This is cute, because they are lying to us. They don't have privacy settings; they have visibility settings. Our information is always visible to them, which means it will be shared with governments and in response to a legal request.
+
+And with that, adjusting visibility settings offers protection from online harassment, stalking, and other forms of abuse, so understanding what these settings obscure and share is critical to staying safe online.
+
 There are many posts that show how to lock down accounts. These steps are critical protection against stalkers, abusive partners, scammers, and other predatory and abusive behaviors that are furthered when bad actors access social media and other online accounts.
 
 I'm not linking to any specific guides because the mechanisms change regularly, and any link I shared would be obsolete within weeks, days, or hours. Rather, use this search for the services you want to lock down:
@@ -248,6 +250,8 @@ TBD
 
 Virtual Private Networks (VPNs)
 -------------------------------
+
+
 
 For people who access the internet from outside their home or office, using a virtual private network (or VPN) can provide different levels of protection from a nosy kid playing at hacker on the coffee shop Wi-Fi network or from a person trying to steal private information as part of an attempt at identity theft. VPNs can also obscure which sites a person visits, thus hiding their browsing histories from people who might attempt to access it. Additionally, VPNs hide your IP address, which can make it appear as if you're in a different geographic location, which blocks location-based targeting.
 
