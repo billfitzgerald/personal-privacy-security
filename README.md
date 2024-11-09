@@ -443,7 +443,7 @@ In addition to these three steps, one of the easiest things you can do to protec
 
 Using Signal on your phone also protects you from having the information in your texts logged and stored by your mobile phone carriers. As with email and file storage, deleting old text threads can protect against these threads being accessed.
 
-Finally, for people who want a higher level of privacy protection for their phone or tablet, you can also use a [Faraday Bag](https://duckduckgo.com/?q=faraday+bag) to block wireless signals and any potential tracking.
+In the past, I have seen (and yes, made) recommendations for using a [Faraday Bag](https://duckduckgo.com/?q=faraday+bag) to block wireless signals and any potential tracking. Faraday Bags work, but/and they are often not practical for most people in everyday situations. If you want to get a Faraday bag, by all means get one (or hey - I'll sell you my old one, cheap!), but for most of us they end up being the thing we either use for security cosplay or never use at all. 
 
 <h2 id="wireless">Wireless</h2>
 
