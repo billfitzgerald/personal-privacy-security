@@ -1,15 +1,30 @@
-**Note, 8 Nocember 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
+**Note, 8 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
 
-Introduction
-------------
+<h2>Introduction</h2>
 
-Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy. This post covers a range of concrete steps we can all take to regain control over what, when, and with whom we share. Some of the things we discuss will involve technology, and some of them won't. The majority of the suggestions we make involve tools or practices that are freely available. The vast majority of things we suggest are also designed to be accessible without a large amount of technical knowledge. The steps we outline here are intended as a solid starting point, and not a comprehensive solution, but with that said, the steps we define here minimize or eliminate many common issues.
+Conversations about privacy and security often focus on technology and give scant attention to the human, non-technological factors that affect personal privacy and security. This post covers a range of concrete steps we can all take to regain control over what, when, and with whom we share. Some of the things we discuss will involve technology, and some of them won't. The majority of the suggestions we make involve tools or practices that are freely available. The vast majority of things we suggest are also designed to be accessible without a large amount of technical knowledge. The steps we outline here are intended as a solid starting point, and not a comprehensive solution, but with that said, the steps we define here minimize or eliminate many common issues.
 
 Also, the steps in this guide are about minimizing risk, exposure, and the potential harm that comes from risk and exposure. These steps can reduce risk, which is great, but it's not the same as eliminating risk. Do what works for you, and do it as consistently as possible. The best steps you take are the ones you take. Start small, build up gradually, and make informed choices.
 
+<h2 id="table-of-contents">Table of Contents</h2>
 
-Assessing Risk
---------------
+<ul>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#quicklist" title="Quick list of good steps">Quick List - Getting Started</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+	<li><a href="#assessing-risk" title="Assessing Risk">Assessing Risk</a></li>
+</ul>
+
+<h2 id="">Assessing Risk</h2>
 
 When we think about protecting our privacy, we generally start with these questions:
 
@@ -23,8 +38,37 @@ These factors can help determine our priorities: What information is most import
 
 Use the questions listed above to structure decisions. In the conversations below, we will highlight how easy or hard some changes are to make.
 
-In Person/Face-to-Face
-----------------------
+This specific guide is designed to provide a range of options for people who want to proactively minimize their exposure in a range of ways. It is not designed for people in a crisis. It is designed for people who distrust the companies that profit from our data, and for people who have concerns that the details of their private life could be used against them.
+
+<h2 id="quicklist">Quick List - Getting Started</h2>
+
+When we discuss privacy and security, we often become too focused on the tools rather than on the behavioral shifts required to use the tools well. At the same time, when discussing how to improve privacy and security, we often get stuck in the details and fail to acknowledge that we all can do simple things to increase the control we have over our privacy. Each of these steps, and additional options, are discussed in more detail in this post.
+
+Easy, free steps to protect our privacy start with blocking trackers when browsing the web:
+
+-   [uBlock Origin](https://github.com/gorhill/uBlock) (blocks ad trackers)
+-	Use [Duck Duck Go](https://duckduckgo.com/) for search. It's not perfect, but it's better. 
+-	Whenever possible, set up [two-factor authentication](#two-factor-authentication) to protect accounts.
+
+When using your phone or tablet, these free steps can increase your control over your privacy:
+
+-   Use [Signal](https://whispersystems.org/) to send texts and make voice calls.
+-   Turn off wireless, Bluetooth, and location services when you leave your home. Only turn them on when you need them.
+-   Use DuckDuckGo's mobile app to minimize tracking - [iOS](https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361) and [Android versions](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android).
+
+Take these steps that are slightly more complex and still free:
+
+-   Use [Tor](https://www.torproject.org/) when browsing for sensitive information.
+-   Delete cookies from your browser - this recommendation applies both to phones and laptop/desktop computers.
+
+Try these additional options that add privacy protection but are not free:
+
+-   Use a virtual private network, or VPN, when browsing the internet from your computer, phone, or tablet. NOTE: VPN use is a surprisingly complex choice. Many (most?) VPNs expose you to additional risk. More details are in the [section on VPNs](#VPN).
+-   Use a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen). This will help prevent people from reading over your shoulder.
+
+A final step we all can take involves cleaning up the old files we have in our online file storage and deleting old emails we have stored online. No one needs to be a data hoarder. Setting up a time each month to delete emails and files we no longer need, and to archive items we don't have an immediate need for, helps minimize the risk of old information becoming compromised.
+
+<h2 id="">In Person/Face-to-Face</h2>
 
 There are a range of ways people can access information if they're physically close to you. In this section, we will highlight ways to minimize the risk of people seeing information they don't need to see.
 
@@ -43,8 +87,7 @@ Fortunately, a [privacy screen](https://duckduckgo.com/?q=computer+privacy+scree
 
 There are other steps you can take to minimize risks that arise from physical access, but using a **privacy screen**, **encrypting** devices, not leaving devices **logged in while they're unattended**, and being **careful with external storage devices** can eliminate many common issues. As we stated at the outset, eliminating all risk is impossible, but these steps can reduce risks to which we're all commonly exposed.
 
-Going Next Level On Your Phone
-------------------------------
+<h2 id="">Going Next Level On Your Phone</h2>
 
 Phones are tricky. One way of thinking about phones is that we all pay money to carry a GPS tracking device, a microphone, and a video surveillance tool that can also make phone calls. Arguably, phones are the most intrusive risk to our privacy and security, and the phone operating system market can feel like a duopoly: Android or iOS.
 
@@ -60,8 +103,7 @@ Moving off Android or iOS can be a tall order. The instally process is not simpl
 
 One piece of advice buried in ths guidance: **turn your phone off at least once a week**. There are some types of attacks that run without impacting the underlying operating system, and powering your phone off will stop these attacks from working. While this won't stop every type of attack that targets phones, giving the relative simplicity of the defense (turn off, wait 60 seconds, turn on) it's an easy, accessible step we can all take.
 
-Avoiding Scams
---------------
+<h2 id="">Avoiding Scams</h2>
 
 Scammers congregate where people [have a need](https://consumer.ftc.gov/consumer-alerts/2023/01/looking-job-scammers-might-be-looking-you) or want something. That makes job boards, dating sites, ticket sales, charitable donations, and ecommerce very attractive vectors for criminals. Scammers exploit need, in the many different ways that needs appear for different people.
 
@@ -105,8 +147,7 @@ This information can then be used to do more research about the business.
 
 But, and I can't stress this enough: be VERY skeptical of offers and opportunities that come unbidden, both online and in real life. You know what you need better than anyone, and one key way to avoid scams is to be intentional about the opportunities you seek, research them thoroughly, and act on them on your terms.
 
-General Maintenance When Using a Machine that Connects to the Internet
-----------------------------------------------------------------------
+General Maintenance When Using a Machine that Connects to the Internet</h2>
 
 Part of maintaining the security of our devices -- and our privacy -- involves making sure that our device or computer software is up to date.
 
@@ -124,8 +165,7 @@ Install operating system and software updates in a timely way.
 - [Windows FAQ](https://support.microsoft.com/en-us/help/12373/windows-update-faq) 
 - [OSX FAQ](https://support.apple.com/en-us/HT201541).
 
-Safe(r) Browsing
-----------------
+<h2 id="">Safe(r) Browsing</h2>
 
 Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware. The connections betwee social media and malware continue to evolve, as [Meta continues to fail](https://www.bitdefender.com/en-us/blog/labs/unmasking-the-sys01-infostealer-threat-bitdefender-labs-tracks-global-malvertising-campaign-targeting-meta-business-pages/) to protect their users from malware attacks.
 
@@ -133,7 +173,7 @@ And even if adtech wasn't commonly used to deliver malware, it should still be b
 
 When you hear this question, know that you are conversing with someone who -- either intentionally or unintentionally -- is parroting industry talking points. The better questions are "what is the need?" and "who benefits?" and "why is it necessary?" The answers to these questions help center the conversation in a way that values people over corporations, and exposes the surveillance embedded in many of the business models supporting adtech and data brokers.
 
-### Choosing a Browser
+<h2>Choosing a Browser</h2>
 
 Choosing a browser is becoming increasingly difficult. Firefox used to be a reliable choice, but with Mozilla's push into AI, the wisdom of using Firefox for the indefinite future is open for debate. 
 
@@ -145,7 +185,7 @@ For the Everyday browser, I still recommend [Firefox](https://www.mozilla.org/en
 
 For the Research browser, use [Tor](https://www.torproject.org/) and/or the [Mullvad browser](https://mullvad.net/en/browser) (which is a collaboration between Mullvad and Tor.)
 
-### Ad Blocking
+### Ad Blocking</h3>
 
 Browser extension: Install uBlock Origin
 
@@ -153,8 +193,7 @@ Block via DNS: Use a service like [Quad9](https://www.quad9.net/).
 
 As with all the sections in this post and in this series, the options described are not intended to be comprehensive. The full suite of options for securing computers running Windows, Mac OS X, or Linux are outside the scope of this post. However, checking for malware and installing updates regularly can help avoid some common problems. The sections that follow detail different areas that we need to think about when protecting our privacy.
 
-Using Sites Where You Have an Account
--------------------------------------
+<h2 id="">Using Sites Where You Have an Account</h2>
 
 When we visit any website, we generally are tracked by various methods. In this post, we lump different tracking methods and technologies into a blob that we will call "trackers." Technical differences exist between different types of trackers, but a thorough description of them all is outside the scope of this post.
 
@@ -172,8 +211,7 @@ In addition to these steps, disabling and removing unused browser plug-ins is st
 
 A final note here involves the use of so-called "private" or incognito browsing. Avoid it. If you want private browsing for everyday activities, use the steps outlined in this section. If you want truly private browsing, use Tor, as described in the next section.
 
-Search
-------
+<h2 id="">Search</h2>
 
 With the increased use of AI to create content, and the increased use of AI to deliver search results, search is becoming [increasingly useless](https://www.nytimes.com/2024/06/01/technology/google-ai-overviews-rollback.html).
 
@@ -183,8 +221,7 @@ For many of us, if we have Gmail accounts (either a personal or work account, or
 
 When searching for sensitive information that you don't want shared, the best approach is to use Tor/Mullvad browser and search via Duck Duck Go. Using this strategy helps protect you from having your personal data collected by data brokers while searching for information.
 
-Email (and text, and social media)
-----------------------------------
+Email (and text, and social media)</h2>
 
 This section was originally focused on email, but the bulk of this advice applies to text messages and social media use as well.
 
@@ -216,15 +253,13 @@ On a practical level, in some instances email can be used in criminal cases or c
 
 A final note about email: It is only as secure as the person you're sending it to, and the "security" of the message should be assessed against the sensitivity and value of the message. If you're using an encrypted email service and you're sending messages to a person using a personal Gmail account, that email is getting scanned by Google. We generally advise people to consider email an insecure service. Accordingly, sending information about a surprise party is probably pretty safe, whereas sending information about a Dark Family Secret is something you might want to save for an in-person conversation.
 
-Clear Data From Google
-----------------------
+<h2 id="">Clear Data From Google</h2>
 
 For people who use Google, you can control (to an extent) what Google retains, or [what Google shows you they retain](https://support.google.com/accounts/answer/7028918). 
 
 While using the options Google provides is better than doing nothing, it's best to think about this as a mitigation strategy that needs to be verified periodically (every 3-6 months) to make sure that Google doesn't change any settings in an "update". If time is an issue, other steps can provide more return for the time required. 
 
-Adjust Privacy Settings (Really, Visibility Settings)
------------------------------------------------------
+Adjust Privacy Settings (Really, Visibility Settings)</h2>
 
 Many social media services talk about their privacy settings. This is cute, because they are lying to us. They don't have privacy settings; they have visibility settings. Our information is always visible to them, which means it will be shared with governments and in response to a legal request.
 
@@ -243,13 +278,29 @@ For people going through a breakup, there are other factors to consider. I wrote
 And, while adjusting privacy settings is necessary to protect ourselves from the prying eyes of the general public, "privacy" settings are better understood as visibility settings. They largely govern what people can see, but they have little to no impact on what the company can see. There is no such thing as a privacy setting from Google, Facebook, Instagram, X, Tiktok, LinkedIn, etc. These companies can see information you mark as private, as seen when Facebook shared private messages that were used for [prosecuting people who needed to access medical care](https://www.npr.org/2022/08/12/1117092169/nebraska-cops-used-facebook-messages-to-investigate-an-alleged-illegal-abortion).
 
 
-Secure Online File Storage
---------------------------
+<h2 id="file-storage">Secure Online File Storage</h2>
 
 TBD
 
-Virtual Private Networks (VPNs)
--------------------------------
+<h2 id="VPN">Virtual Private Networks (VPNs)</h2>
+
+Understanding what VPNs protect, and what they don't protect, is an important factor in determining if and when to use one. This section is not comprehensive, but at a high level, VPNs do three things in most cases:
+
+-	hide your actual IP address from places you go online; and
+-	make it more difficult for an attacker to see where you are going on the internet; and
+-	make it more difficult for an attacker to sniff any details about network traffic that is routed through the VPN.
+
+However, VPNs do not:
+
+-	hide your traffic from sites you visit. When you visit a site, and especially when you log into a site, everything you do on that site can be seen by the people running the site;
+-	block malware or tracking. Some VPNs offer this as a feature, but it is not a default benefit of using a VPN.
+
+Additionally, some sites will not work if you are using a VPN. Breakage can range from blocking any traffic coming from a VPN, to not allowing e-commerce or credit card transactions.
+
+Finally, because VPNs route traffic through a single connection that is controlled by a single company, that organization can see -- and theoretically alter -- all of your internet traffic. Many companies that offer VPNs are not trustworthy -- and this is especially true of companies that only offer a free VPN service. 
+
+**NEVER USE A FREE VPN. Never trust anyone who recommends a free VPN**. VPNs are very difficult to maintain securely, and the expertise required to do this costs time and money. A trustworthy VPN -- one that does not snoop on your data, does not log your usage of the service, and one that won't sell to hostile governments or frivolous legal action -- is both very hard to find, and worth paying for.
+
 
 This section covers two types of VPNs: the work-provided VPN, and personal VPNs.
 
@@ -273,8 +324,7 @@ Many companies provide VPNs for their employees. While these VPNs protect agains
 
 **NOTE**: when you are using the internet from your home, your internet service provider (ISP) can see where you go online. They log this information. Using a VPN at home prevents your ISP from collecting this information. ISPs, like all companies, can be compelled to share data with governments, law enforcement, and in response to a valid legal request. 
 
-Increased Anonymity and Tracking Protection
--------------------------------------------
+Increased Anonymity and Tracking Protection</h2>
 
 ### Tails
 
@@ -288,8 +338,7 @@ Tails is a specialized tool that isn't needed by everyone, but it can be useful 
 
 Another option for people who want a private, segmented way to access the internet is to use a Raspberry Pi. The Pi 5 is a very solid machine, and you can set it up as a standalone device to use for specialized work. Using a Pi for specialized work where you don't want to expose your main device can provide a level of safety and flexibility. Getting a Pi 5 (the latest as of June 2024) costs around $100-150 US, depending on the setup of the Pi you get.
 
-Creating "Good" Passwords
--------------------------
+<h2 id="">Creating "Good" Passwords</h2>
 
 Password advice has evolved. Complexity is out. Forced password changes [are out](https://grahamcluley.com/new-nist-guidelines-do-away-with-periodic-password-changes/). Both of these practices contribute to less secure passwords, and password reuse. Passphrases -- multiple random words -- are more effective. Both [NIST](https://www.nist.gov/blogs/taking-measure/easy-ways-build-better-p5w0rd) and [XKCD](https://xkcd.com/936/) agree, which is as close as we can ever hope to get to consensus.
 
@@ -302,8 +351,7 @@ Both of these passwords are the same length - 43 characters, which is plenty lon
 
 Passphrases allow us to have longer passwords, which helps them be more secure.
 
-Password Managers
------------------
+<h2 id="">Password Managers</h2>
 
 Our advice on password managers is straightforward: Use one. I generally recommend 1Password for sharing between multiple people or devices, and KeepassXC for local use.
 
@@ -313,8 +361,7 @@ While no single solution is perfect, password managers eliminate the problems of
 
 To state the obvious, putting all this information in a single location is also a risk; this is why the password manager must also be protected by a strong password and two factor authentication. While writing passwords down is almost never a good idea, writing down only the password to your password manager and your primary device (i.e., computer or mobile phone), and then storing these passwords in a safe location, allows you to have a suitably strong password protecting these key services while eliminating the risk that you will forget the passwords. [This post contains tips](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) on creating both secure and memorable passwords.
 
-Two-Factor Authentication
--------------------------
+<h2 id="">Two-Factor Authentication</h2>
 
 Two-factor authentication -- also called 2FA, or MFA (multi-factor authentication) -- is based on the idea that we can be more secure if we expand authentication to include two (or more) of the following criteria:
 
@@ -331,8 +378,6 @@ The most commonly used form of two-factor authentication involves the provider s
 
 However, there are three main issues with using a text message to support two-factor authentication. First, if one of our concerns is tracking by corporations, this form of two-factor authentication provides a direct connection among us, a mobile phone number, and our account - in other words, when we give Facebook or Twitter our mobile phone number to support two factor authentication, we have told them a phone number that we rely on, which can then be used to track us further.
 
-Second, two-factor authentication can be tricky for people who travel to or live in locations with unpredictable cell phone reception. If our phone can't get an adequately strong signal to receive the text, we're out of luck.
-
 Third, hackers have started to use a technique called [SIM hijacking](https://www.wired.com/2016/06/hey-stop-using-texts-two-factor-authentication/) to actually take over a phone and have texts forwarded to a different phone. While this technique is more complicated and requires a reasonably skilled and determined person to pull off, SIM hijacking appears to be occurring more frequently.
 
 Services such as [Authy](https://www.authy.com/) address some of these issues but still involve sharing data with a third-party company. However, if our primary risk is getting hacked, and corporate or ad tracking is secondary, two-factor authentication via text or via a service provides an additional level of protection.
@@ -341,8 +386,7 @@ An additional option that has some advantages over using text or a service is to
 
 But to summarize, any form of two-factor authentication adds a level of protection against unauthorized access. Using a USB key also protects against hackers and doesn't leak information to the other companies that will use personal information -- such as a phone number tied to an email address and other personal information -- to track us.
 
-Passkeys versus Passwords
--------------------------
+<h2 id="">Passkeys versus Passwords</h2>
 
 Passkeys have been promoted as a way to replace passwords, and all of the security concerns [related to passwords](https://blog.1password.com/passkeys-vs-passwords-differences/). 
 
@@ -360,8 +404,7 @@ Technically, passkeys look promising. The reality of that promise remains to see
 
 1Password maintains a [searchable list of sites](https://passkeys.directory/) that support Passkeys. As of this writing, it shows 168 sites and services.
 
-Phone/Tablet and Apps
----------------------
+<h2 id="">Phone/Tablet and Apps</h2>
 
 To start, using a mobile phone is both unavoidable, and a significant privacy and security risk. If our phone is on -- even if location services, bluetooth, and wireless are all off -- it still tracks your location via pings to cell phone towers. ISPs can be compelled to share this data with government, law enforcement, and in response to valid legal requests. ISPs are [currently making the case that they can sell location data](https://arstechnica.com/tech-policy/2024/11/verizon-att-tell-courts-fcc-cant-punish-us-for-selling-user-location-data/),which creates an additional layer of risk (ie, if you live in a state with restrictions on accessing reproductive care, location data can be used as evidence).
 
@@ -381,8 +424,7 @@ Using Signal on your phone also protects you from having the information in your
 
 Finally, for people who want a higher level of privacy protection for their phone or tablet, you can also use a [Faraday Bag](https://duckduckgo.com/?q=faraday+bag) to block wireless signals and any potential tracking.
 
-Wireless
---------
+<h2 id="">Wireless</h2>
 
 Wireless internet is widely offered in many public places. As with anything that is free, the offers often come with strings. Be selective with free wireless. It is generally a tracking tool. The risks of using publicly available wireless can be mitigated by using a virtual private network (VPN) and/or Tor.
 
@@ -405,50 +447,18 @@ Home wireless networks are as secure as the wireless encryption protocol and the
 
 No one wants their router [conscripted into a destructive botnet](https://arstechnica.com/information-technology/2024/11/microsoft-warns-of-8000-strong-botnet-used-in-password-spraying-attacks/). Disabling remote access and enabling automatic security updates reduces risk.
 
-Kill AI
--------
+<h2 id="">Kill AI</h2>
 
 Microsoft, Google, Apple, Meta, Mozilla are all running headlong into the ethical and privacy morass that is data collection from their customers to support developing AI tools that they promise and pinky swear will be really helpful for us, and will only require that they get access to all of our data.
 
 This section is not complete as of this writing. In the upcoming weeks and months, I will update this section, but at this writing (Nov 8, 2024) I want to publish the other areas of this guide rather than hold up sharing the entire guide because this section is incomplete.
 
-Simple Steps
-------------
-
-When we discuss privacy, we often become too focused on the tools rather than on the behavioral shifts required to use the tools well. At the same time, when discussing how to improve privacy and security, we often get stuck in the details and fail to acknowledge that we all can do simple things to increase the control we have over our privacy. This post goes into detail well beyond these simple steps, but using these steps as a starting point would be a marked improvement for most of us.
-
-Easy, free steps to protect our privacy start with blocking trackers when browsing the web:
-
--   [uBlock Origin](https://github.com/gorhill/uBlock) (blocks ad trackers)
--	Use [Duck Duck Go](https://duckduckgo.com/) for search. It's not perfect, but it's better. 
--	Whenever possible, set up [two-factor authentication](#two-factor-authentication) to protect accounts.
-
-When using your phone or tablet, these free steps can increase your control over your privacy:
-
--   Use [Signal](https://whispersystems.org/) to send texts and make voice calls.
--   Turn off wireless, Bluetooth, and location services when you leave your home. Only turn them on when you need them.
--   If you use an iOS-based device, use [Firefox Focus](https://blog.mozilla.org/blog/2016/11/17/introducing-firefox-focus-a-free-fast-and-easy-to-use-private-browser-for-ios/) to block tracking.
-
-Take these steps that are slightly more complex and still free:
-
--   Use [Tor](https://www.torproject.org/) when browsing for sensitive information.
--   Delete cookies from your browser.
-
-Try these additional options that add privacy protection but are not free:
-
--   Use a virtual private network, or VPN, when browsing the internet from your computer, phone, or tablet.
--   Use a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen). This will help prevent people from reading over your shoulder.
-
-A final step we all can take involves cleaning up the old files we have in our online file storage and deleting old emails we have stored online. No one needs to be a data hoarder. Setting up a time each month to delete emails and files we no longer need, and to archive items we don't have an immediate need for, helps minimize the risk of old information becoming compromised.
-
-Conclusion
-----------
+<h2 id="">Conclusion</h2>
 
 It's easy to feel powerless when it comes to protecting our privacy. Companies, political organizations, and governments have a head start, and the fight to regain our privacy is often marked by distinct [information asymmetry](https://en.wikipedia.org/wiki/Information_asymmetry), where the organizations collecting, sharing, and storing our data know more about us than we know about them. However, as the Five Days of Privacy demonstrate, we have options. There are a broad range of concrete steps we can take now, and most of these steps are free and pretty low-tech.
 
 As we continue to reclaim our rights to privacy, part of our work is normalizing behavior that protects privacy. If one person out of a thousand uses a VPN, that individual will stand out. If 200 people out of a thousand use a VPN, we begin to get some safety in numbers. Additionally, as more people use more privacy-protecting behaviors, we reduce the value of the data that is collected. If we pair privacy-protecting behavior with studying the companies that want to collect and use our information, we reduce the current state of information asymmetry. Reclaiming privacy is a choice. Sometimes it's not a convenient choice, but flossing, exercise, and eating well aren't always easy either. But when we make protecting our privacy a choice as an individual, we make it easier to protect ourselves and our communities.
 
-Licensing Information
----------------------
+<h2 id="">Licensing Information</h2>
 
 This work is licensed under a [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/4.0/) License. The lead authors of this work are Bill Fitzgerald and Audrey Watters.
