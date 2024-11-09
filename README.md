@@ -14,8 +14,9 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#in-person" title="In Person/Face-to-Face">In Person/Face-to-Face</a></li>
 	<li><a href="#phone-os-options" title="Going Next Level On Your Phone">Going Next Level On Your Phone</a></li>
 	<li><a href="#avoiding-scams" title="Avoiding Scams">Avoiding Scams</a></li>
-	<li><a href="#safer-browsing" title="Safe(r) Browsing">Safe(r) Browsing</a></li>
 	<li><a href="#browser" title="Choosing a Browser">Choosing a Browser</a></li>
+	<li><a href="#ad-blocking" title="Ad Blocking">Ad Blocking</a></li>
+	<li><a href="#safer-browsing" title="Safe(r) Browsing">Safe(r) Browsing</a></li>
 	<li><a href="#sites-with-accounts" title="Using Sites Where You Have an Account">Using Sites Where You Have an Account</a></li>
 	<li><a href="#search" title="Search">Search</a></li>
 	<li><a href="#email-text-socia-media" title="Email (and text, and social media)">Email (and text, and social media)</a></li>
@@ -175,14 +176,6 @@ Install operating system and software updates in a timely way.
 - [Windows FAQ](https://support.microsoft.com/en-us/help/12373/windows-update-faq) 
 - [OSX FAQ](https://support.apple.com/en-us/HT201541).
 
-<h2 id="safer-browsing">Safe(r) Browsing</h2>
-
-Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware. The connections betwee social media and malware continue to evolve, as [Meta continues to fail](https://www.bitdefender.com/en-us/blog/labs/unmasking-the-sys01-infostealer-threat-bitdefender-labs-tracks-global-malvertising-campaign-targeting-meta-business-pages/) to protect their users from malware attacks.
-
-And even if adtech wasn't commonly used to deliver malware, it should still be blocked for one core reason: unnamed companies, who we don't know, who haven't asked our consent, who don't have our best interests at heart, have no right to know what I'm doing online. I don't go online so The Trade Desk can exist. The data broker and adtech industries justify their ever-expanding quest to collect and retain more information about us with the disingenuous question of "where is the harm?"
-
-When you hear this question, know that you are conversing with someone who -- either intentionally or unintentionally -- is parroting industry talking points. The better questions are "what is the need?" and "who benefits?" and "why is it necessary?" The answers to these questions help center the conversation in a way that values people over corporations, and exposes the surveillance embedded in many of the business models supporting adtech and data brokers.
-
 <h2 id="browser">Choosing a Browser</h2>
 
 Choosing a browser is becoming increasingly difficult. Firefox used to be a reliable choice, but with Mozilla's push into AI, the wisdom of using Firefox for the indefinite future is open for debate. 
@@ -195,13 +188,32 @@ For the Everyday browser, I still recommend [Firefox](https://www.mozilla.org/en
 
 For the Research browser, use [Tor](https://www.torproject.org/) and/or the [Mullvad browser](https://mullvad.net/en/browser) (which is a collaboration between Mullvad and Tor.)
 
-<h3>Ad Blocking</h3>
+<h2 id="ad-blocking">Ad Blocking</h2>
 
-Browser extension: Install uBlock Origin
+Adtech is malware. We see this repeatedly; a recent example of what this looks like comes from [Meta, who allowed their adtech to play a key role](https://www.bitdefender.com/en-us/blog/labs/unmasking-the-sys01-infostealer-threat-bitdefender-labs-tracks-global-malvertising-campaign-targeting-meta-business-pages/) in delivering an infostealer.
 
-Block via DNS: Use a service like [Quad9](https://www.quad9.net/).
+In addition, adtech companies sell, and resell, our data repeatedly, and the end result [invariably ends up getting invisibly weaponized](https://www.404media.co/inside-the-u-s-government-bought-tool-that-can-track-phones-at-abortion-clinics/) against us. 
 
-As with all the sections in this post and in this series, the options described are not intended to be comprehensive. The full suite of options for securing computers running Windows, Mac OS X, or Linux are outside the scope of this post. However, checking for malware and installing updates regularly can help avoid some common problems. The sections that follow detail different areas that we need to think about when protecting our privacy.
+Ad blocking options:
+
+-	Browser extension: Install uBlock Origin
+-	Network option: Block via DNS using a service like [Quad9](https://www.quad9.net/)
+-	Network option: use a Pi-Hole
+-	Phone: Use DuckDuckGo's mobile app to minimize tracking - [iOS](https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361) and [Android versions](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android).
+
+The device-specific ad blocking options, while offering some protection, are not as comprehensive as the network options. The network options can require more setup, but offer protection to all devices using the network. 
+
+DNS-based ad blocking can also be set on different devices. Documenting the steps for different devices is outside the scope of this post, but you can find information for different devices and operating systems using the following general search formula:
+
+<code>change dns server OS_NAME</code>
+
+<h2 id="safer-browsing">Safe(r) Browsing</h2>
+
+Going online exposes us to the [wonderfulness of the internet](https://duckduckgo.com/?q=omg+cat+videos&ia=videos), but that wonderfulness also brings the fetid practice of tracking and behavioral-advertising technology. Due to the [ongoing](http://arstechnica.com/security/2016/03/big-name-sites-hit-by-rash-of-malicious-ads-spreading-crypto-ransomware/) and [well-documented](http://www.computerworld.com/article/2987036/application-security/after-pushing-malware-ad-networks-also-used-for-ddos.html) overlap [between malware](https://threatpost.com/ad-networks-ripe-for-abuse-via-malvertising/111840/) and [adtech](http://www.theverge.com/2015/8/25/9202301/advertising-malware-malvertising-statistics-flash-vulnerability), we document protections against tracking as an effective [defense against exposure](http://www.businessinsider.com/android-malware-spreads-using-google-adsense-advertising-network-kaspersky-researchers-2016-8) to [various forms](https://arstechnica.com/security/2024/06/mac-info-stealer-malware-distributed-through-google-ads/) of malware. The connections betwee social media and malware continue to evolve, as [Meta continues to fail](https://www.bitdefender.com/en-us/blog/labs/unmasking-the-sys01-infostealer-threat-bitdefender-labs-tracks-global-malvertising-campaign-targeting-meta-business-pages/) to protect their users from malware attacks.
+
+And even if adtech wasn't commonly used to deliver malware, it should still be blocked for one core reason: unnamed companies, who we don't know, who haven't asked our consent, who don't have our best interests at heart, have no right to know what I'm doing online. I don't go online so The Trade Desk can exist. The data broker and adtech industries justify their ever-expanding quest to collect and retain more information about us with the disingenuous question of "where is the harm?"
+
+When you hear this question, know that you are conversing with someone who -- either intentionally or unintentionally -- is parroting industry talking points. The better questions are "what is the need?" and "who benefits?" and "why is it necessary?" The answers to these questions help center the conversation in a way that values people over corporations, and exposes the surveillance embedded in many of the business models supporting adtech and data brokers.
 
 <h2 id="sites-with-accounts">Using Sites Where You Have an Account</h2>
 
