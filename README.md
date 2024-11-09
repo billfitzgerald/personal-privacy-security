@@ -75,7 +75,7 @@ Take these steps that are slightly more complex and still free:
 
 Try these additional options that add privacy protection but are not free:
 
--   Use a virtual private network, or VPN, when browsing the internet from your computer, phone, or tablet. NOTE: VPN use is a surprisingly complex choice. Many (most?) VPNs expose you to additional risk. More details are in the [section on VPNs](#VPN).
+-   If you choose to use a virtual private network, or VPN, do not make this decision lightly. VPN use is a surprisingly complex choice. **Many (most?) VPNs expose you to additional risk**. More details are in the [section on VPNs](#VPN).
 -   Use a [privacy screen](https://duckduckgo.com/?q=computer+privacy+screen). This will help prevent people from reading over your shoulder.
 
 A final step we all can take involves cleaning up the old files we have in our online file storage and deleting old emails we have stored online. No one needs to be a data hoarder. Setting up a time each month to delete emails and files we no longer need, and to archive items we don't have an immediate need for, helps minimize the risk of old information becoming compromised.
