@@ -21,6 +21,7 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#search" title="Search">Search</a></li>
 	<li><a href="#email-text-socia-media" title="Email (and text, and social media)">Email (and text, and social media)</a></li>
 	<li><a href="#clear-google" title="Clear Data From Google">Clear Data From Google</a></li>
+	<li><a href="#visibility-settings">Adjust Privacy Settings (Really, Visibility Settings)</li>
 	<li><a href="#file-storage" title="Secure Online File Storage">Secure Online File Storage</a></li>
 	<li><a href="#VPN" title="Virtual Private Networks (VPNs)">Virtual Private Networks (VPNs)</a></li>
 	<li><a href="#anonymity-protection" title="Increased Anonymity and Tracking Protection">Increased Anonymity and Tracking Protection</a></li>
@@ -282,7 +283,7 @@ For people who use Google, you can control (to an extent) what Google retains, o
 
 While using the options Google provides is better than doing nothing, it's best to think about this as a mitigation strategy that needs to be verified periodically (every 3-6 months) to make sure that Google doesn't change any settings in an "update". If time is an issue, other steps can provide more return for the time required. 
 
-Adjust Privacy Settings (Really, Visibility Settings)</h2>
+<h2 id="visibility-settings">Adjust Privacy Settings (Really, Visibility Settings)</h2>
 
 Many social media services talk about their privacy settings. This is cute, because they are lying to us. They don't have privacy settings; they have visibility settings. Our information is always visible to them, which means it will be shared with governments and in response to a legal request.
 
