@@ -1,4 +1,4 @@
-**Note, 8 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
+[Version 1.1](#version), November 9, 2024.
 
 <h2>Introduction</h2>
 
@@ -32,6 +32,7 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#wireless" title="Wireless">Wireless</a></li>
 	<li><a href="#kill-ai" title="Kill AI">Kill AI</a></li>
 	<li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
+	<li><a href="#version" title="Version">Version and Updates</a></li>
 	<li><a href="#licensing" title="Licensing Information">Licensing Information</a></li>
 </ul>
 
@@ -480,6 +481,14 @@ It's easy to feel powerless when it comes to protecting our privacy. Companies, 
 
 As we continue to reclaim our rights to privacy, part of our work is normalizing behavior that protects privacy. If one person out of a thousand uses a VPN, that individual will stand out. If 200 people out of a thousand use a VPN, we begin to get some safety in numbers. Additionally, as more people use more privacy-protecting behaviors, we reduce the value of the data that is collected. If we pair privacy-protecting behavior with studying the companies that want to collect and use our information, we reduce the current state of information asymmetry. Reclaiming privacy is a choice. Sometimes it's not a convenient choice, but flossing, exercise, and eating well aren't always easy either. But when we make protecting our privacy a choice as an individual, we make it easier to protect ourselves and our communities.
 
+<h2 id="version">Version and Updates</h2>
+
+Version 1.1. November 9, 2024.
+
+**Note, 9 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
+
 <h2 id="licensing">Licensing Information</h2>
 
-This work is licensed under a [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/4.0/) License. The lead authors of this work are Bill Fitzgerald and Audrey Watters.
+This work is licensed under a [Creative Commons Attribution Share-Alike](https://creativecommons.org/licenses/by-sa/4.0/) License. The lead authors of the original work are Bill Fitzgerald and Audrey Watters.
+
+Updates to this work by Bill Fitzgerald
