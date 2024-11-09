@@ -199,7 +199,7 @@ Ad blocking options:
 
 -	Browser extension: Install uBlock Origin
 -	Network option: Block via DNS using a service like [Quad9](https://www.quad9.net/)
--	Network option: use a Pi-Hole
+-	Network option: use a [Pi-Hole](https://pi-hole.net/).
 -	Phone: Use DuckDuckGo's mobile app to minimize tracking - [iOS](https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361) and [Android versions](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android).
 
 The device-specific ad blocking options, while offering some protection, are not as comprehensive as the network options. The network options can require more setup, but offer protection to all devices using the network. 
