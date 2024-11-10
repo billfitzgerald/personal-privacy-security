@@ -496,7 +496,7 @@ Version 1.1. November 9, 2024.
 
 **Note, 9 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
 
-**10 November 2024** - added section on [Push Notifications](#notifications) from a suggestion received on Mastodon.
+**10 November 2024** - added section on [Push Notifications](#notifications) from a suggestion received from [Chris Ferguson](https://mastodon.social/@ChrisFerguson).
 
 <h2 id="licensing">Licensing Information</h2>
 
