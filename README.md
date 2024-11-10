@@ -30,6 +30,7 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#2fa" title="Two-Factor Authentication">Two-Factor Authentication</a></li>
 	<li><a href="#passkeys" title="Passkeys versus Passwords">Passkeys versus Passwords</a></li>
 	<li><a href="#apps" title="Phone/Tablet and Apps">Phone/Tablet and Apps</a></li>
+	<li><a href="#notifications" title="Push Notifications">Disable Push Notifications</a></li>
 	<li><a href="#wireless" title="Wireless">Wireless</a></li>
 	<li><a href="#kill-ai" title="Kill AI">Kill AI</a></li>
 	<li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
@@ -68,6 +69,7 @@ When using your phone or tablet, these free steps can increase your control over
 -   Use [Signal](https://whispersystems.org/) to send texts and make voice calls.
 -   Turn off wireless, Bluetooth, and location services when you leave your home. Only turn them on when you need them.
 -   Use DuckDuckGo's mobile app to minimize tracking - [iOS](https://apps.apple.com/us/app/duckduckgo-private-browser/id663592361) and [Android versions](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android).
+-	Disable [Push Notifications](#notifications).
 
 Take these steps that are slightly more complex and still free:
 
@@ -447,6 +449,12 @@ Using Signal on your phone also protects you from having the information in your
 
 In the past, I have seen (and yes, made) recommendations for using a [Faraday Bag](https://duckduckgo.com/?q=faraday+bag) to block wireless signals and any potential tracking. Faraday Bags work, but/and they are often not practical for most people in everyday situations. If you want to get a Faraday bag, by all means get one (or hey - I'll sell you my old one, cheap!), but for most of us they end up being the thing we either use for security cosplay or never use at all. 
 
+<h2 id="notifications">Disable Push Notifications</h2>
+
+Push notifications -- the messages that pop up on screen from apps even when your phone is locked -- often contain [information](https://blues.cs.berkeley.edu/blog/2024/07/08/the-medium-is-the-message-how-secure-messaging-apps-leak-sensitive-data-to-push-notification-services-pets-24/) about the app, the sender, and even the message itself. These messages create a privacy risk that [companies](https://gizmodo.com/iphone-apps-can-harvest-data-from-notifications-1851194537) and [law enforcement](https://www.wired.com/story/apple-google-push-notification-surveillance/) can exploit.
+
+This issue impacts both Android and iOS. Fortunately, this issue has an easy fix: disable push notifications. This has the added benefit of making our phones less intrusive. The nagging tones of incoming notifications can be a distraction on the best of days. Disabling push notifications is both better for privacy and better for our ability to stay present in our physical space - so what's not to love!
+
 <h2 id="wireless">Wireless</h2>
 
 Wireless internet is widely offered in many public places. As with anything that is free, the offers often come with strings. Be selective with free wireless. It is generally a tracking tool. The risks of using publicly available wireless can be mitigated by using a virtual private network (VPN) and/or Tor.
@@ -487,6 +495,8 @@ As we continue to reclaim our rights to privacy, part of our work is normalizing
 Version 1.1. November 9, 2024.
 
 **Note, 9 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
+
+**10 November 2024** - added section on [Push Notifications](#notifications) from a suggestion received on Mastodon.
 
 <h2 id="licensing">Licensing Information</h2>
 
