@@ -31,6 +31,7 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#passkeys" title="Passkeys versus Passwords">Passkeys versus Passwords</a></li>
 	<li><a href="#apps" title="Phone/Tablet and Apps">Phone/Tablet and Apps</a></li>
 	<li><a href="#notifications" title="Push Notifications">Disable Push Notifications</a></li>
+	<li><a href="#qr-codes" title="Avoid using QR Codes">QR Codes</a></li>
 	<li><a href="#wireless" title="Wireless">Wireless</a></li>
 	<li><a href="#kill-ai" title="Kill AI">Kill AI</a></li>
 	<li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
@@ -454,6 +455,16 @@ In the past, I have seen (and yes, made) recommendations for using a [Faraday Ba
 Push notifications -- the messages that pop up on screen from apps even when your phone is locked -- often contain [information](https://blues.cs.berkeley.edu/blog/2024/07/08/the-medium-is-the-message-how-secure-messaging-apps-leak-sensitive-data-to-push-notification-services-pets-24/) about the app, the sender, and even the message itself. These messages create a privacy risk that [companies](https://gizmodo.com/iphone-apps-can-harvest-data-from-notifications-1851194537) and [law enforcement](https://www.wired.com/story/apple-google-push-notification-surveillance/) can exploit.
 
 This issue impacts both Android and iOS. Fortunately, this issue has an easy fix: disable push notifications. This has the added benefit of making our phones less intrusive. The nagging tones of incoming notifications can be a distraction on the best of days. Disabling push notifications is both better for privacy and better for our ability to stay present in our physical space - so what's not to love!
+
+<h2 id="qr-codes">QR Codes</h2>
+
+QR codes are increasingly used in consumer applications by companies and governments. Some restaurants use QR codes to share their menus; and many organizations, including governmental entities, use QR codes to direct people to locations of apps where people can learn more. 
+
+The increased use of QR codes creates a new opportunity for scammers and criminals. QR codes are the functional equivalent of a url or file arriving in a text or email, with one big difference: with a QR code, it's even more difficult to verify the url. For example, in the UK, scammers used [fake QR codes to scam](https://www.thetimes.com/article/fake-parking-qr-codes-trick-drivers-into-paying-conmen-8cj88jpvf) people trying to pay for parking. QR codes are being [observed in phishing](https://securityboulevard.com/2023/10/use-of-qr-codes-in-phishing-campaigns-is-on-the-rise/) scams, and the both the [FBI](https://www.ic3.gov/PSA/2022/PSA220118) and the [FTC](https://consumer.ftc.gov/consumer-alerts/2023/12/scammers-hide-harmful-links-qr-codes-steal-your-information) are warning people about increased criminal activity using QR codes.
+
+The advice many people give about QR codes is to verify the link the QR code directs you too. This is not good advice because redirecting a link is drop dead simple; it's why delivering malware via email and text is so easy to do. My advice and my personal practice at present is to never scan QR codes. When we see a QR code, we need to start thinking the same way we do when we see a link: avoid clicking on it unless we have complete, 100% confidence both that we trust the organization sharing it, and that the QR code itself hasn't been tampered with.
+
+A better solution would be a QR scanning service that read the url, and then tested the url to detect the number of redirects triggered by url, and verified whether or not -- using a service like VirusTotal -- any of the urls in the redirect chain had ever been used in malicious activity. Until then, I will continue avoiding QR codes. 
 
 <h2 id="wireless">Wireless</h2>
 
