@@ -1,4 +1,8 @@
-[Version 1.1](#version), November 9, 2024.
+<h2>Main Source on Codeberg</h2>
+
+The primary source for this guide is [on Codeberg](https://codeberg.org/funnymonkey/personal-privacy-security). I'm moving key projects to Codeberg; in the fairly near term, this project will be removed from Github.
+
+[Version 1.2](#version), March 1, 2025.
 
 <h2>Introduction</h2>
 
@@ -32,7 +36,7 @@ Also, the steps in this guide are about minimizing risk, exposure, and the poten
 	<li><a href="#apps" title="Phone/Tablet and Apps">Phone/Tablet and Apps</a></li>
 	<li><a href="#notifications" title="Push Notifications">Disable Push Notifications</a></li>
 	<li><a href="#qr-codes" title="Avoid using QR Codes">QR Codes</a></li>
-	<li><a href="#wireless" title="Wireless">Wireless</a></li>
+	<li><a href="#wireless" title="Wireless">Wireless and Home Networking</a></li>
 	<li><a href="#kill-ai" title="Kill AI">Kill AI</a></li>
 	<li><a href="#conclusion" title="Conclusion">Conclusion</a></li>
 	<li><a href="#version" title="Version">Version and Updates</a></li>
@@ -111,7 +115,7 @@ Fortunately, other options exist.
 
 [CalyxOS](https://calyxos.org) is a solid option for a more privacy-conscious phone. They support a [large number of phones](https://calyxos.org/install/), and you can also buy a phone with [CalyxOS pre-installed](https://members.calyxinstitute.org/enroll/device). The install process for Calyx is well documented and complete, and it requires some familiarity with the command line. With that said, because the documentation is thorough, it looks more complex than it is.
 
-[GrapheneOS](https://grapheneos.org) is another great option for people looking for a private and secure phone. Like Calyx, Graphene has well documented [installation instructions](https://grapheneos.org/install/) that are both detailed, and potentially intimidating for people who aren't familiar with setting up hardware. Graphene recommends a [recent Pixel phone](https://grapheneos.org/faq#recommended-devices).
+[GrapheneOS](https://grapheneos.org) is another great option for people looking for a private and secure phone. Like Calyx, Graphene has well documented [installation instructions](https://grapheneos.org/install/) that are both detailed, and potentially intimidating for people who aren't familiar with setting up hardware. Graphene recommends a [recent Pixel phone](https://grapheneos.org/faq#recommended-devices). I wrote up two tutorials on getting started with Graphene: one on [installing Graphene](https://www.funnymonkey.com/2025/02/installing-grapheneos-on-your-phone-for-more-privacy-and-improved-security/), and a second on [configuring Graphene post-install](https://www.funnymonkey.com/2025/02/configuring-grapheneos-for-daily-use/).
 
 Both Graphene and Calyx are based off Android, and both pull the Google-reliant bits from the operating system. There are long and heated discussions about which system is better, and getting into that conversation is outside the scope of this post. Either option is more private that stock Android or iOS. Having used both systems, the one thing I will say is that Organic Maps is a good replacement option for Google Maps, which is the only Google service I truly miss. If and when I have needed Google Maps (maybe once every 4-6 months?) I'll either piggyback off a friends phone (because I'm a freeloader like that) or load Google Maps in the phone's web browser.
 
@@ -183,13 +187,15 @@ Install operating system and software updates in a timely way.
 
 <h2 id="browser">Choosing a Browser</h2>
 
-Choosing a browser is becoming increasingly difficult. Firefox used to be a reliable choice, but with Mozilla's push into AI, the wisdom of using Firefox for the indefinite future is open for debate. 
+Choosing a browser is becoming increasingly difficult. Firefox is no longer a reliable choice, and Chrome hasn't been a good choice for privacy for a while, and recent trends make that worse. 
 
-I don't recommend using Chrome. Google has been threatening/promising to remove cookies for years, which sounds like a win for privacy, but will generally be a [win for Google](https://www.eff.org/deeplinks/2023/09/how-turn-googles-privacy-sandbox-ad-tracking-and-why-you-should).
+I don't recommend using Chrome. After years of threats, promises, and half-baked explanations about why more pervasive tracking is really a good thing for privacy, Google [rolled out fingerprinting](https://www.bbc.com/news/articles/cm21g0052dno) in February 2025.
+
+I no longer recommend using Firefox either. Mozilla, the organization that develops and maintains Firefox, has been slowly descending into an adtech and AI company, and making devils bargains with our data in the process. If you want more detail about these problems, I go into [more detail in this post](https://www.funnymonkey.com/2025/02/mozillas-new-terms-of-service-and-updated-privacy-policy/).
 
 I recommend splitting browser selection into two types of use: the Everyday browser, and the Research browser.
 
-For the Everyday browser, I still recommend [Firefox](https://www.mozilla.org/en-US/firefox/new/). I [wrote a post](https://archive.funnymonkey.com/2020/browser-hygiene-for-better-privacy---think-of-it-like.html) a few years back that still holds up on how to configure Firefox post-install. Mozilla -- the organization that develops Firefox, is slowly going up in flames, but until a legitimate organization forks Firefox or a legitimate organization releases a browser that is fully featured and accessible to regular people, Firefox is the best choice we have.
+For the Everyday browser, I am currently recommending [LibreWolf](https://librewolf.net/). LibreWolf uses the source code from Firefox -- which is open source -- as a foundation. While I have not used this browser myself, I have also heard decent things about [Vivaldi](https://vivaldi.com/). Vivaldi is based on [Chromium](https://www.chromium.org/Home/), the open source codebase also used in Chrome. 
 
 For the Research browser, use [Tor](https://www.torproject.org/) and/or the [Mullvad browser](https://mullvad.net/en/browser) (which is a collaboration between Mullvad and Tor.)
 
@@ -478,6 +484,14 @@ Institutional or organizational wireless is theoretically easier to secure, but 
 
 It's also worth remembering that our devices will automatically connect to "recognized" wireless connections unless we explicitly disable this setting. This can be exploited by hackers who can create illicit networks in public places. Common names such as "attwifi," "xfinity," or "linksys" can easily be spoofed -- and once you connect to a wireless access point, the person who controls that access point has the ability to see and control your online activity. A VPN mitigates this risk, as does turning off wireless on your phone when you go out. You can also minimize risk by deleting wireless networks that are outside your regular locations. This is especially true for people who travel.
 
+### Travel Access Points for Vacation Rentals or Work Travel
+
+Accessing the internet securely while traveling can be harder and less secure than it should be. From rickety hotel internet to potentially untrustworthy broadband at a rental property, it can be difficult to have faith in the integrity of your connection to the internet. If you travel frequently and want to have a more predictably secure entry point to the internet for you, you could benefit from using a remote travel router.  
+
+While no single option should ever be considered fully trustworthy, a small travel router can provide a reasonably secure wireless connection, which minimizes risk.
+
+To build a small travel router, use a Raspberry Pi and the router setup delivered via [RaspAP](https://raspap.com/). This project is clean and straightforward to use. The [project docs](https://docs.raspap.com/) are great, and I wrote up [some additional install notes](https://www.funnymonkey.com/2025/02/setting-up-a-raspberry-pi-as-a-travel-router-using-raspap-full-documentation/) documenting the setup process.
+
 ### Home Networks
 
 A full writeup on home network security is outside the scope of this post, but the advice listed below can reduce some of the more pervasive risks on home networks.
@@ -503,7 +517,9 @@ As we continue to reclaim our rights to privacy, part of our work is normalizing
 
 <h2 id="version">Version and Updates</h2>
 
-Version 1.1. November 9, 2024.
+Version 1.2. March 1, 2025.
+
+**Note, 1 March 2025** - Updated to include links to setting up GrapheneOS, and added a section to describe how to set up a travel router. The section on web browsers was updated to recommend LibreWolf instead of Firefox.
 
 **Note, 9 November 2024** - I allowed this guide to languish after I initially published it. Based on the events of the last few days I wanted to get it updated. This later version will likely be more opinionated than the earlier version. **End Note**
 
